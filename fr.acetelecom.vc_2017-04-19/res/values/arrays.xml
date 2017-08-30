@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="items_array">
+        <item></item>
+    </string-array>
+    <string-array name="items_arraypc">
+        <item>Hot</item>
+        <item>Fear</item>
+        <item>Tennis</item>
+        <item>War</item>
+        <item>Airport</item>
+        <item>Birthday</item>
+        <item>Baby crying</item>
+        <item>Kittens</item>
+        <item>Road</item>
+        <item>Office</item>
+        <item>Bar</item>
+        <item>Casino</item>
+        <item>Nightclub</item>
+        <item>Traffic jams</item>
+        <item>Farm</item>
+        <item>Fun fair</item>
+        <item>Forest</item>
+        <item>Rail station</item>
+        <item>Sea - Ocean</item>
+        <item>Subway</item>
+        <item>Christmas</item>
+        <item>Park with children</item>
+        <item>Beach (calm)</item>
+        <item>Beach with children</item>
+        <item>Raining - Storm</item>
+        <item>In the street</item>
+        <item>Creek</item>
+        <item>Science-fiction</item>
+        <item>Sports ground</item>
+    </string-array>
+</resources>

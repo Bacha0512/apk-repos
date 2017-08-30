@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="RegisterNumber">רשום את המספר שלך</string>
+    <string name="app_name">אזהרה: עצמת השמע מושתקת</string>
+    <string name="buycredits">קנה נקודות</string>
+    <string name="cancel">ביטול</string>
+    <string name="checkconnection">בדוק את חיבור האינטרנט שלך או נסה להתחבר לרשת אינטרנט אחרת</string>
+    <string name="chooseBackNoise">בחר רעש רקע</string>
+    <string name="coinsnotif" formatted="false">ברכות! הרווחת %.0f %s!</string>
+    <string name="contact_us">צור קשר</string>
+    <string name="coupon">קופון</string>
+    <string name="credits">שניות</string>
+    <string name="hide_my_phonenumber">הסתר את מספר הטלפון שלי</string>
+    <string name="higher">גבוה יותר</string>
+    <string name="invalidphonenumber">מספר הטלפון לא תקין!</string>
+    <string name="invalidphonenumbertext">מספר הטלפון לחיוג לא תקין או אינו מאושר! נסה מספר טלפון אחר.</string>
+    <string name="labelcreditsremaining">נקודות שנותרו:</string>
+    <string name="like_appli">עשה לנו לייק</string>
+    <string name="lower">נמוך יותר</string>
+    <string name="menu_mynumber">המספר שלי</string>
+    <string name="menu_terms">עזרה</string>
+    <string name="minutes">דקות</string>
+    <string name="normal">רגיל</string>
+    <string name="novoip">אזהרה: חלק מספקי ורשתות הסלולר חוסמים ביצוע שיחות באמצעות האינטרנט. נסה להתחבר לרשת סלולרית אחרת.</string>
+    <string name="numero_a_pieger">מספר לחיוג</string>
+    <string name="obtaincredit">יש להשתמש בנקודות כדי לטלפן למישהו באמצעות Voice Changer</string>
+    <string name="offres">השלם הצעה</string>
+    <string name="ok">OK</string>
+    <string name="poorcnx">חיבור האינטרנט שלך איטי מדי לביצוע שיחות. נסה שוב עם חיבור אינטרנט מהיר יותר</string>
+    <string name="regle_ta_voix">בחר את הקול שלך</string>
+    <string name="share">שתף</string>
+    <string name="share_app">שתף את האפליקציה וזכה בדקות חינם. אנו מחלקים 100 דקות חינם בכל יום!!!</string>
+    <string name="share_txt">הורד את Voice Changer Allogag ובצע מתיחות בטלפון בחינם!</string>
+    <string name="sondage">השלם סקר</string>
+    <string name="soundoff">אזהרה: עצמת השמע מושתקת</string>
+    <string name="tab1">משנה קול</string>
+    <string name="tab2">נקודות</string>
+    <string name="tab3">רעש רקע</string>
+    <string name="ton_numero">מספר הטלפון שלך</string>
+    <string name="wait">המתן...</string>
+    <string name="welcome1">"ברוכים הבאים ל-Voice Changer Allogag!
+
+השיחות שתבצע באמצעות Voice Changer יבוצעו באמצעות רשת האינטרנט ולא יופיעו בפירוט חשבון הסלולר שלך.
+
+וודא שחיבור האינטרנט שלך מהיר לפני ביצוע שיחה!"</string>
+    <string name="winfreeminutes">זכה בדקות חינם</string>
+    <string name="yournumberisnotvalid">המספר שלך לא תקין!</string>
+</resources>

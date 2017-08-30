@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="items_array">
+        <item></item>
+    </string-array>
+    <string-array name="items_arraypc">
+        <item>Sıcak</item>
+        <item>Korku</item>
+        <item>Tenis</item>
+        <item>Savaş</item>
+        <item>Havalimanı</item>
+        <item>Doğum günü</item>
+        <item>Bebek ağlıyor</item>
+        <item>Kedi Yavruları</item>
+        <item>Yol</item>
+        <item>Ofis</item>
+        <item>Bar</item>
+        <item>Kumarhane</item>
+        <item>Gece kulübü</item>
+        <item>Trafik sıkışıklığı</item>
+        <item>Çiftlik</item>
+        <item>Lunapark</item>
+        <item>Orman</item>
+        <item>Tren istasyonu</item>
+        <item>Deniz - Okyanus</item>
+        <item>Metro</item>
+        <item>Noel</item>
+        <item>Çocuklarla Park</item>
+        <item>Plaj (sakin)</item>
+        <item>Çocuklarla Plaj</item>
+        <item>Yağmur - Fırtına</item>
+        <item>Sokakta</item>
+        <item>Dere</item>
+        <item>Bilimkurgu</item>
+        <item>Spor alanı</item>
+    </string-array>
+</resources>

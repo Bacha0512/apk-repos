@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/color_white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <Button android:id="@id/dialog_recording_play" android:visibility="visible" android:text="@string/recordings_play" android:drawableRight="@drawable/ic_icon_play" android:drawableEnd="@drawable/ic_icon_play" style="@style/RecordingDialogButtons" />
+            <Button android:id="@id/dialog_recording_call" android:text="@string/recordings_call" android:drawableRight="@drawable/ic_icon_call" android:drawableEnd="@drawable/ic_icon_call" style="@style/RecordingDialogButtons" />
+            <Button android:id="@id/dialog_recording_share" android:visibility="visible" android:text="@string/recordings_share" android:drawableRight="@drawable/ic_icon_share_white" android:drawableEnd="@drawable/ic_icon_share_white" style="@style/RecordingDialogButtons" />
+            <Button android:id="@id/dialog_recording_download" android:visibility="visible" android:text="@string/recordings_download" android:drawableRight="@drawable/ic_icon_download" android:drawableEnd="@drawable/ic_icon_download" style="@style/RecordingDialogButtons" />
+            <Button android:id="@id/dialog_recording_delete" android:layout_marginBottom="10.0dip" android:text="@string/recordings_delete" android:drawableRight="@drawable/ic_icon_delete" android:drawableEnd="@drawable/ic_icon_delete" style="@style/RecordingDialogButtons" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textSize="16.0sp" android:textColor="#ffffffff" android:state_enabled="true" android:layout_gravity="center_vertical" android:id="@id/wallet" android:background="@drawable/ic_wallet" android:paddingRight="7.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" />
+    <ImageButton android:state_enabled="false" android:layout_gravity="center_vertical" android:id="@id/dialButton" android:background="@drawable/btn_call" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_dial_action_call" android:layout_weight="0.3" android:contentDescription="@string/description_dial_button" />
+    <Button android:textColor="#ffffffff" android:layout_gravity="center_vertical" android:id="@id/help" android:background="@drawable/ic_help" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</merge>

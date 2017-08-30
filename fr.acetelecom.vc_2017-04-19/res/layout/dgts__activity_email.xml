@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:digits="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/dgts__Container">
+        <TextView android:id="@id/dgts__titleText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/dgts__confirmation_edit_hint" style="@style/dgts__EnterConfirmationCodeTitle" />
+        <EditText android:layout_gravity="center_horizontal" android:id="@id/dgts__confirmationEditText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dgts__margin_bottom" android:ems="10" android:layout_below="@id/dgts__titleText" android:inputType="number" android:imeOptions="actionNext" />
+        <com.digits.sdk.android.internal.StateButton android:id="@id/dgts__createAccount" android:layout_width="fill_parent" android:layout_height="@dimen/tw__login_btn_height" android:layout_marginBottom="@dimen/dgts__margin_bottom" android:layout_below="@id/dgts__confirmationEditText" />
+        <TextView android:id="@id/dgts__termsTextCreateAccount" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/dgts__createAccount" style="@style/dgts__Terms" />
+    </RelativeLayout>
+</ScrollView>

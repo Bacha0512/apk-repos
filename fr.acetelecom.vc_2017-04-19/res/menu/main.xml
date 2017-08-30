@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:support="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_menu_white_24dp" android:id="@id/menu_settings" android:title="" support:showAsAction="always">
+        <menu>
+            <item android:id="@id/menu_login" android:title="@string/login" support:showAsAction="ifRoom" />
+            <item android:id="@id/menu_myjokes" android:title="@string/menu_myjokes" support:showAsAction="ifRoom" />
+            <item android:id="@id/menu_mynumber" android:title="@string/menu_mynumber" support:showAsAction="ifRoom" />
+            <item android:id="@id/like_appli" android:title="@string/like_appli" support:showAsAction="ifRoom" />
+            <item android:id="@id/menu_terms" android:title="@string/menu_terms" support:showAsAction="ifRoom" />
+            <item android:id="@id/contact_us" android:title="@string/contact_us" support:showAsAction="ifRoom" />
+            <item android:id="@id/menu_logout" android:title="@string/logout" support:showAsAction="ifRoom" />
+        </menu>
+    </item>
+</menu>

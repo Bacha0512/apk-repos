@@ -1,0 +1,25 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: com-weirdvoice.83.apk
+compressionType: false
+doNotCompress:
+- arsc
+- assets/zipPrepoDB
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '16'
+  targetSdkVersion: '25'
+sharedLibrary: false
+unknownFiles:
+  com/weirdvoice/api/NOTICE.txt: '8'
+  org/webrtc/videoengine/README.txt: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.2.1-dirty
+versionInfo:
+  versionCode: '83'
+  versionName: '83'

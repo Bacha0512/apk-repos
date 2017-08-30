@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:background="@color/pubnative_ad_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/pubnative_header" android:layout_width="fill_parent" android:layout_height="220.0dip" android:layout_alignParentTop="true">
+        <ImageView android:id="@id/pubnative_banner" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/pubnative_body" android:paddingTop="25.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/pubnative_header" android:layout_centerVertical="true">
+        <ImageView android:id="@id/pubnative_icon" android:layout_width="52.0dip" android:layout_height="52.0dip" android:layout_marginBottom="25.0dip" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/pubnative_title_text_size" android:textStyle="bold" android:textColor="@color/pubnative_title_text_color" android:ellipsize="end" android:id="@id/pubnative_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:maxWidth="250.0dip" android:maxLines="1" android:layout_below="@id/pubnative_icon" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/pubnative_description_text_size" android:textColor="@color/pubnative_title_text_color" android:id="@id/pubnative_ad_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:text="@string/pubnative_sponsored_text" android:layout_below="@id/pubnative_title" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/pubnative_description_text_size" android:textColor="@color/pubnative_description_text_color" android:ellipsize="end" android:gravity="center" android:id="@id/pubnative_description" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="4" android:layout_below="@id/pubnative_body" android:layout_centerHorizontal="true" />
+    <Button android:textColor="@color/pubnative_call_to_action_text_color" android:id="@id/pubnative_callToAction" android:background="@drawable/pubnative_cta_background" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="44.0dip" android:layout_alignParentBottom="true" />
+    <RelativeLayout android:id="@id/pubnative_content_info_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+</RelativeLayout>

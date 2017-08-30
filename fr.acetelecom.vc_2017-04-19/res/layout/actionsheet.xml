@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="bottom" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <RelativeLayout android:id="@id/rlActionSheet" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:gravity="center_horizontal" android:id="@id/tvActionSheetTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="Offerwall" />
+            <TextView android:textSize="15.0sp" android:textColor="#ff000000" android:gravity="center" android:id="@id/tvButtonOffer1" android:background="@drawable/desc_rounded_no_padding" android:layout_width="fill_parent" android:layout_height="35.0dip" android:layout_margin="5.0dip" android:text="Fyber" android:layout_below="@id/tvActionSheetTitle" />
+            <TextView android:textSize="15.0sp" android:textColor="#ff000000" android:gravity="center" android:id="@id/tvButtonOffer2" android:background="@drawable/desc_rounded_no_padding" android:layout_width="fill_parent" android:layout_height="35.0dip" android:layout_margin="5.0dip" android:text="Supersonic" android:layout_below="@id/tvButtonOffer1" />
+            <TextView android:textSize="15.0sp" android:textColor="#ff000000" android:gravity="center" android:id="@id/tvButtonOffer3" android:background="@drawable/desc_rounded_no_padding" android:layout_width="fill_parent" android:layout_height="35.0dip" android:layout_margin="5.0dip" android:text="Tapjoy" android:layout_below="@id/tvButtonOffer2" />
+            <TextView android:textSize="15.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tvCancel" android:background="@drawable/desc_rounded_no_padding_black" android:layout_width="fill_parent" android:layout_height="35.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="5.0dip" android:text="@string/cancel" android:layout_below="@id/tvButtonOffer3" />
+            <View android:layout_width="fill_parent" android:layout_height="10.0dip" android:layout_below="@id/tvCancel" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="items_array">
+        <item></item>
+    </string-array>
+    <string-array name="items_arraypc">
+        <item>Noel</item>
+        <item>Chatons</item>
+        <item>Dinosaure</item>
+        <item>Tennis</item>
+        <item>Guerre</item>
+        <item>Aeroport</item>
+        <item>Anniversaire</item>
+        <item>Bébé Pleure</item>
+        <item>Bord de route</item>
+        <item>Bureau</item>
+        <item>Café Bar</item>
+        <item>Casino</item>
+        <item>Discotèque</item>
+        <item>Embouteillage</item>
+        <item>Ferme</item>
+        <item>Fête foraine</item>
+        <item>Forêt</item>
+        <item>Gare</item>
+        <item>Mer Océan</item>
+        <item>Métro bondé</item>
+        <item>Noël</item>
+        <item>Parc avec enfants</item>
+        <item>Plage calme</item>
+        <item>Plage avec enfants</item>
+        <item>Pluie orage</item>
+        <item>Rue en ville</item>
+        <item>Ruisseau</item>
+        <item>Science-fiction</item>
+        <item>Stade</item>
+    </string-array>
+</resources>

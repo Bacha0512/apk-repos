@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="items_array">
+        <item></item>
+    </string-array>
+    <string-array name="items_arraypc">
+        <item>गर्म</item>
+        <item>डर</item>
+        <item>टेनिस</item>
+        <item>युद्ध</item>
+        <item>हवाई अड्डा</item>
+        <item>जन्मदिन</item>
+        <item>बच्चा रो रहा है</item>
+        <item>बिल्ली के बच्चे</item>
+        <item>सड़क</item>
+        <item>कार्यालय</item>
+        <item>बार</item>
+        <item>कैसिनो</item>
+        <item>नाइट क्लब</item>
+        <item>ट्रैफिक जाम</item>
+        <item>खेत</item>
+        <item>मेला</item>
+        <item>जंगल</item>
+        <item>रेल स्टेशन</item>
+        <item>समुद्र - महासागर</item>
+        <item>भूमिगत मार्ग</item>
+        <item>क्रिसमस</item>
+        <item>बच्चों के साथ पार्क</item>
+        <item>समुद्र तट (शांत)</item>
+        <item>बच्चों वाला समुद्र तट</item>
+        <item>बारिश-तूफान</item>
+        <item>गली में</item>
+        <item>क्रीक</item>
+        <item>काल्पनिक विज्ञान</item>
+        <item>खेल का मैदान</item>
+    </string-array>
+</resources>

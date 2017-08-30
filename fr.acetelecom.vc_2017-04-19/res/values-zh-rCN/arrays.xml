@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="items_array">
+        <item></item>
+    </string-array>
+    <string-array name="items_arraypc">
+        <item>热</item>
+        <item>恐惧</item>
+        <item>网球</item>
+        <item>战争</item>
+        <item>机场</item>
+        <item>生日</item>
+        <item>婴儿啼哭</item>
+        <item>小猫</item>
+        <item>路</item>
+        <item>办公室</item>
+        <item>酒吧</item>
+        <item>赌场</item>
+        <item>夜总会</item>
+        <item>交通堵塞</item>
+        <item>农场</item>
+        <item>游乐园</item>
+        <item>森林</item>
+        <item>火车站</item>
+        <item>大海-海洋</item>
+        <item>地铁</item>
+        <item>圣诞</item>
+        <item>公园与儿童</item>
+        <item>海滩（平静）</item>
+        <item>海滩与儿童</item>
+        <item>下雨-风暴</item>
+        <item>在街上</item>
+        <item>溪流</item>
+        <item>科幻-小说</item>
+        <item>运动场</item>
+    </string-array>
+</resources>

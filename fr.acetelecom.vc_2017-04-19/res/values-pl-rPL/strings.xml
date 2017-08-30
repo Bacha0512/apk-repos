@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="RegisterNumber">Zarejestruj swój numer</string>
+    <string name="app_name">Ostrzeżenie: dźwięk jest wyciszony</string>
+    <string name="buycredits">Kup kredyty</string>
+    <string name="cancel">Anuluj</string>
+    <string name="checkconnection">Sprawdź połączenie z internetem lub spróbuj połączyć się z inną siecią</string>
+    <string name="chooseBackNoise">Wybierz dźwięk w tle</string>
+    <string name="coinsnotif" formatted="false">Gratulacje! Otrzymujesz %.0f %s!</string>
+    <string name="contact_us">Skontaktuj się z nami</string>
+    <string name="coupon">Kupon</string>
+    <string name="credits">sekund</string>
+    <string name="hide_my_phonenumber">Ukryj mój numer telefonu</string>
+    <string name="higher">Wyższy</string>
+    <string name="invalidphonenumber">Nieprawidłowy numer telefonu!</string>
+    <string name="invalidphonenumbertext">Numer, z którym ma zostać nawiązane połączenie, jest nieprawidłowy lub nieautoryzowany! Spróbuj użyć innego numeru.</string>
+    <string name="labelcreditsremaining">Pozostałe kredyty:</string>
+    <string name="like_appli">Polub aplikację</string>
+    <string name="lower">Niższy</string>
+    <string name="menu_mynumber">Mój numer</string>
+    <string name="menu_terms">Pomoc</string>
+    <string name="minutes">minut</string>
+    <string name="normal">Normalny</string>
+    <string name="novoip">Ostrzeżenie: niektórzy dostawcy i niektóre sieci mogą blokować wykonywanie połączeń przez internet. Spróbuj połączyć się z inną siecią.</string>
+    <string name="numero_a_pieger">Numer, z którym ma zostać nawiązane połączenie</string>
+    <string name="obtaincredit">Aby zadzwonić przy użyciu Voice Changer, musisz zdobyć kredyty</string>
+    <string name="offres">Wypełnij ofertę</string>
+    <string name="ok">OK</string>
+    <string name="poorcnx">Połączenie internetowe jest zbyt wolne do wykonywania połączeń. Popraw połączenie i spróbuj ponownie.</string>
+    <string name="regle_ta_voix">Wybierz głos</string>
+    <string name="share">Udostępnij</string>
+    <string name="share_app">Udostępnij aplikację i zyskaj szansę na wygranie bezpłatnych minut. Codziennie do wygrania 100 minut!!!</string>
+    <string name="share_txt">Pobierz Voice Changer Allogag i rób bezpłatnie żarty telefoniczne!</string>
+    <string name="sondage">Wypełnij ankietę</string>
+    <string name="soundoff">Ostrzeżenie: dźwięk jest wyciszony</string>
+    <string name="tab1">Transformator głosu</string>
+    <string name="tab2">Kredyty</string>
+    <string name="tab3">Szum tła</string>
+    <string name="ton_numero">Twój numer telefonu</string>
+    <string name="wait">Czekaj...</string>
+    <string name="welcome1">"Witamy w Voice Changer Allogag! 
+
+W Voice Changer połączenia są wykonywane przez internet i nie są doliczane do rachunku od dostawcy internetu. 
+
+Do wykonywania połączeń wymagane jest dobrej jakości połączenie internetowe!"</string>
+    <string name="winfreeminutes">Wygraj bezpłatne minuty</string>
+    <string name="yournumberisnotvalid">Twój numer jest nieprawidłowy!</string>
+</resources>

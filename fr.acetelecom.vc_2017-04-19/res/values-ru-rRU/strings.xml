@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="RegisterNumber">Зарегистрируйте ваш номер</string>
+    <string name="app_name">Voice Changer</string>
+    <string name="buycredits">Купить кредиты</string>
+    <string name="cancel">Отмена</string>
+    <string name="checkconnection">Проверьте подключение к интернету или попробуйте подключиться к другой интернет-сети</string>
+    <string name="chooseBackNoise">Выберите фоновый шум</string>
+    <string name="coinsnotif" formatted="false">"Поздравляем! Вы заработали %.0f %s! 
+(60 кредитов = 1 минута)"</string>
+    <string name="contact_us">Свяжитесь с нами</string>
+    <string name="coupon">Купон</string>
+    <string name="credits">секунд(ы)</string>
+    <string name="hide_my_phonenumber">Скрыть мой номер</string>
+    <string name="higher">Громче</string>
+    <string name="invalidphonenumber">Неправильный номер телефона!</string>
+    <string name="invalidphonenumbertext">Вызываемый номер некорректен или несанкционирован! Пожалуйста, попробуйте другой номер.</string>
+    <string name="labelcreditsremaining">Осталось кредитов:</string>
+    <string name="like_appli">Подпишитесь на нас</string>
+    <string name="lower">Тише</string>
+    <string name="menu_mynumber">Мой номер</string>
+    <string name="menu_terms">Помощь</string>
+    <string name="minutes">минут(ы)</string>
+    <string name="normal">Нормальный</string>
+    <string name="novoip"> Внимание: некоторые операторы или сети блокируют звонки через Интернет. Попробуйте подключиться к другой сети.</string>
+    <string name="numero_a_pieger">Номер для звонка</string>
+    <string name="obtaincredit">Вам нужно получить кредиты, чтобы иметь возможность совершать звонки с помощью Преобразователя голоса</string>
+    <string name="offres">Принять предложение</string>
+    <string name="ok">OK</string>
+    <string name="poorcnx">Ваше Интернет-подключение работает слишком медленно, чтобы звонить. Попробуйте еще раз с сетью Интернет лучшего качества.</string>
+    <string name="regle_ta_voix">Выберите ваш голос</string>
+    <string name="share">Поделиться</string>
+    <string name="share_app">Поделитесь приложением и попробуйте выиграть бесплатные минуты. Ежедневно разыгрывается 100 минут!!!</string>
+    <string name="share_txt">Скачайте Преобразователь голоса Allogag и делайте звонки-розыгрыши бесплатно!</string>
+    <string name="sondage">Пройти опрос</string>
+    <string name="soundoff">Внимание: звук отключен</string>
+    <string name="tab1">Преобразователь голоса</string>
+    <string name="tab2">Кредиты</string>
+    <string name="tab3">Фоновой шум</string>
+    <string name="ton_numero">Ваш номер телефона</string>
+    <string name="wait">Подождите...</string>
+    <string name="welcome1">"Добро пожаловать в Преобразователь голоса Allogag!
+
+Звонки, которые вы делаете с помощью Преобразователя голоса, делаются через Интернет и не списывают денег с вашего мобильного счета.
+
+Убедитесь, что у вас хорошее соединение с Интернетом, прежде чем сделать звонок!"</string>
+    <string name="winfreeminutes">Выиграйте бесплатные минуты</string>
+    <string name="yournumberisnotvalid">Ваш номер неверен!</string>
+    <string name="authsuccess">Успешная аутентификация:</string>
+    <string name="bruitages">Эффекты</string>
+    <string name="button_obtaincredit">Получить больше кредитов</string>
+    <string name="buy">Купить</string>
+    <string name="buyHelp">При покупке видеореклама исчезает</string>
+    <string name="buyWhy">Почему мне нужны кредиты?</string>
+    <string name="chooseBrNoise">Выберите эффект</string>
+    <string name="facebook_application_id">162163577280034</string>
+    <string name="free">Бесплатно!</string>
+    <string name="infobuy">Технически невозможно изменить ваш голос, используя возможности вашего тарифного плана. Все звонки осуществляются с помощью наших серверов, и мы платим за их обслуживание. Поэтому мы не можем предложить неограниченное количество бесплатных минут.</string>
+    <string name="inforec">Записанные вызовы сохраняются в Меню > Мои приколы</string>
+    <string name="login">Войти</string>
+    <string name="logout">Выйти</string>
+    <string name="menu_myjokes">Мои приколы</string>
+    <string name="perm">Принять разрешение, чтобы использовать это приложение.</string>
+    <string name="permaudio">Приложение не может работать без данного разрешения (микрофон)!</string>
+    <string name="permcontacts">Приложение не может работать без данного разрешения (контакты)!</string>
+    <string name="permphone">Данное разрешение (телефон) необходимо, чтобы осуществлять звонки!</string>
+    <string name="permsms">Приложение не может работать без данного разрешения (SMS)!</string>
+    <string name="permstorage">Данное разрешение (хранение данных) необходимо для хранения звуковых файлов, записанных с помощью приложения.</string>
+    <string name="prank">Розыгрыш</string>
+    <string name="record">Записать звонок</string>
+    <string name="register">Чтобы сохранить кредиты и получать специальные предложения зарегистрируйтесь, используя свой номер мобильного телефона и e-mail.</string>
+    <string name="registertitle">Регистрация</string>
+    <string name="sharerec">Станьте автором великолепного телефонного розыгрыша - загрузите преобразователь голоса Allogag</string>
+    <string name="sharetest">Измените свой голос - загрузите преобразователь голоса Allogag на</string>
+    <string name="talk">Нажмите и говорите</string>
+    <string name="txtRegisterNumber">Согласно правилам Google Play, вы не можете использовать в качестве ID абонента номер, не принадлежащий вам.</string>
+    <string name="win">Выиграть</string>
+</resources>

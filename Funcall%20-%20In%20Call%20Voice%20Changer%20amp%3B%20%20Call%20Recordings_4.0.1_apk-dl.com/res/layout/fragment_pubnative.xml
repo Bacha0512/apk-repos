@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:layout_width="fill_parent" android:layout_height="fill_parent" app:cardBackgroundColor="@color/color_white" app:cardCornerRadius="4.0dip" app:cardElevation="7.0dip" app:cardPreventCornerOverlap="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v4.widget.SwipeRefreshLayout android:id="@id/srl_refresh" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/tv_headline">
+        <RelativeLayout android:id="@id/ad_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/ad_view_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+                <ImageView android:id="@id/ad_icon_image" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_margin="5.0dip" android:scaleType="centerCrop" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+                <TextView android:textSize="17.0sp" android:gravity="center_vertical" android:id="@id/ad_title_text" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/ad_icon_image" android:layout_above="@id/ad_rating" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/StyleTextOnLight" />
+                <RatingBar android:id="@id/ad_rating" android:layout_width="wrap_content" android:layout_height="wrap_content" android:numStars="5" android:stepSize="0.1" android:isIndicator="true" android:layout_toRightOf="@id/ad_icon_image" android:layout_alignBottom="@id/ad_icon_image" style="@style/RatingBar" />
+                <View android:id="@id/ad_line" android:background="@color/color_line" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginBottom="1.0dip" android:layout_below="@id/ad_icon_image" />
+                <LinearLayout android:orientation="vertical" android:id="@id/linearLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/ad_call_to_action" android:layout_below="@id/ad_line">
+                    <RelativeLayout android:id="@id/media_container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:minHeight="150.0dip" android:layout_weight="1.0" />
+                    <TextView android:textSize="16.0sp" android:gravity="center_vertical" android:id="@id/ad_description_text" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/StyleTextOnLight" />
+                </LinearLayout>
+                <Button android:textSize="18.0sp" android:gravity="center" android:id="@id/ad_call_to_action" android:background="@drawable/custom_shape_rect_corners_main_color" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:focusable="false" android:clickable="false" android:layout_width="150.0dip" android:layout_height="40.0dip" android:layout_margin="10.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/StyleTextOnDark" />
+            </RelativeLayout>
+            <RelativeLayout android:gravity="end|center|top" android:id="@id/ad_disclosure" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignTop="@id/ad_view_container" />
+        </RelativeLayout>
+    </android.support.v4.widget.SwipeRefreshLayout>
+</android.support.v7.widget.CardView>

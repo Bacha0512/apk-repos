@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:textColor="@color/colorOrange" android:gravity="center_horizontal" android:layout_gravity="top" android:id="@id/titleSL" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/chooseBackNoise" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    <include android:id="@id/linear_recyclerview" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_behavior="@string/appbar_scrolling_view_behavior" layout="@layout/recycler_view" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:paddingTop="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageButton android:textAppearance="?android:textAppearanceButton" android:layout_gravity="center_vertical" android:id="@id/buttonPlay" android:background="@drawable/round_button_orange" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginRight="15.0dip" android:tint="@color/colorOrange" app:srcCompat="@drawable/ic_play_arrow_white_24dp" />
+        <ImageButton android:textAppearance="?android:textAppearanceButton" android:layout_gravity="center_horizontal" android:id="@id/buttonTestVoice" android:background="@drawable/round_button" android:layout_width="70.0dip" android:layout_height="70.0dip" android:src="@drawable/ic_mic_white_24dp" />
+        <ImageButton android:textAppearance="?android:textAppearanceButton" android:layout_gravity="center_vertical" android:id="@id/buttonShare" android:background="@drawable/round_button_orange" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginLeft="15.0dip" android:tint="@color/colorOrange" app:srcCompat="@drawable/ic_share_black_24dp" />
+    </LinearLayout>
+</LinearLayout>

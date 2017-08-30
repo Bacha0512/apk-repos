@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:layout_width="fill_parent" android:layout_height="fill_parent" app:cardBackgroundColor="@color/color_white" app:cardCornerRadius="4.0dip" app:cardElevation="7.0dip" app:cardPreventCornerOverlap="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="20.0sp" android:gravity="center" android:id="@id/tv_popup_title" android:background="@color/color_app_main" android:layout_width="fill_parent" android:layout_height="60.0dip" android:text="@string/bonus_title" style="@style/StyleTextOnDark" />
+        <RelativeLayout android:id="@id/rl_bonus_ready" android:padding="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/tv_popup_title">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/tv_popup_massage">
+                <ImageView android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_marginBottom="45.0dip" android:src="@drawable/ic_bonus_gift" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <TextView android:textSize="18.0sp" android:gravity="center" android:id="@id/tv_popup_massage" android:layout_width="250.0dip" android:layout_height="wrap_content" android:text="@string/bonus_message" android:layout_centerInParent="true" style="@style/StyleTextOnLight" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/sw_notify_approve" android:layout_below="@id/tv_popup_massage">
+                <Button android:textSize="20.0sp" android:id="@id/bt_bonus_approve" android:background="@drawable/custom_shape_rect_corners_main_color" android:layout_width="160.0dip" android:layout_height="40.0dip" android:text="@string/go" android:layout_centerInParent="true" android:onClick="onApprove" style="@style/StyleTextOnDark" />
+            </RelativeLayout>
+            <Switch android:textSize="14.0sp" android:textColor="@color/color_hint_on_light" android:gravity="center" android:id="@id/sw_notify_approve" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checked="true" android:button="@null" android:text="@string/bonus_notify" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" app:theme="@style/MySwitchMain" style="@style/StyleTextOnLight" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rl_bonus_wait" android:padding="10.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/tv_popup_title">
+            <TextView android:textSize="18.0sp" android:gravity="center" android:id="@id/tv_bonus_wait" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/bonus_left" android:layout_above="@id/imageView3" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" style="@style/StyleTextOnLight" />
+            <TextView android:textSize="24.0sp" android:gravity="center" android:id="@id/tv_bonus_wait_time" android:background="@drawable/custom_shape_oval_main_color_border" android:layout_width="150.0dip" android:layout_height="150.0dip" android:layout_marginTop="15.0dip" android:layout_centerInParent="true" style="@style/StyleTextOnLight" />
+            <ImageView android:id="@id/imageView3" android:background="@color/color_white" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/ic_bonus_gift" android:layout_alignTop="@id/tv_bonus_wait_time" android:layout_alignRight="@id/tv_bonus_wait_time" android:rotation="330.0" />
+        </RelativeLayout>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

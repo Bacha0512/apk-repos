@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="items_array">
+        <item></item>
+    </string-array>
+    <string-array name="items_arraypc">
+        <item>ساخن</item>
+        <item>خوف</item>
+        <item>تنس</item>
+        <item>حرب</item>
+        <item>مطار</item>
+        <item>عيد ميلاد</item>
+        <item>بكاء الطفل</item>
+        <item>قطط</item>
+        <item>طريق</item>
+        <item>مكتب</item>
+        <item>بار</item>
+        <item>كازينو</item>
+        <item>ملهى ليلي</item>
+        <item>زحام مروري</item>
+        <item>مزرعة</item>
+        <item>معرض ترفيهي</item>
+        <item>غابة</item>
+        <item>محطة سكة حديد</item>
+        <item>بحر - محيط</item>
+        <item>مترو</item>
+        <item>عيد الميلاد</item>
+        <item>حديقة مع الأطفال</item>
+        <item>شاطئ (هدوء)</item>
+        <item>شاطئ مع الأطفال</item>
+        <item>مطر - عاصفة</item>
+        <item>في الشارع</item>
+        <item>خور</item>
+        <item>خيال علمي</item>
+        <item>ملعب رياضي</item>
+    </string-array>
+</resources>

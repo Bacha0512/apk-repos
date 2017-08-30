@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center|top" android:id="@id/imageView" android:layout_width="fill_parent" android:layout_height="200.0dip" android:src="@drawable/ruban0" android:layout_alignParentTop="true" />
+    <TextView android:textSize="26.0dip" android:textColor="#ff008694" android:gravity="center|top" android:layout_gravity="top" android:id="@id/textViewShareTxt" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="-30.0dip" android:layout_marginRight="10.0dip" android:text="@string/share_app" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/textView10" android:layout_alignParentLeft="false">
+        <Button android:id="@id/btCancel" android:background="#ffdfdfdf" android:layout_width="150.0dip" android:layout_height="fill_parent" android:text="@string/cancel" android:layout_below="@id/textView10" android:layout_alignParentLeft="true" />
+        <Button android:textColor="#ffffffff" android:layout_gravity="right" android:id="@id/btShare" android:background="#ff23af61" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/share" android:layout_alignTop="@id/btCancel" android:layout_alignParentRight="true" />
+    </LinearLayout>
+</LinearLayout>

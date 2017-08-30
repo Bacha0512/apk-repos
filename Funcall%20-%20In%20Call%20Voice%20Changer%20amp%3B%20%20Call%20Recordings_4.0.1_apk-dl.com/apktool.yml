@@ -1,0 +1,35 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: Funcall%20-%20In%20Call%20Voice%20Changer%20amp%3B%20%20Call%20Recordings_4.0.1_apk-dl.com.apk
+compressionType: false
+doNotCompress:
+- arsc
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '15'
+  targetSdkVersion: '26'
+sharedLibrary: false
+unknownFiles:
+  build-data.properties: '8'
+  com/tapjoy/res/countdown_image.png: '8'
+  com/tapjoy/res/tj_close_button.png: '8'
+  fabric/com.crashlytics.sdk.android.answers.properties: '8'
+  fabric/com.crashlytics.sdk.android.beta.properties: '8'
+  fabric/com.crashlytics.sdk.android.crashlytics-core.properties: '8'
+  fabric/com.crashlytics.sdk.android.crashlytics.properties: '8'
+  fabric/io.fabric.sdk.android.fabric.properties: '8'
+  js/closebutton.html: '8'
+  js/mraid.js: '8'
+  jsr305_annotations/Jsr305_annotations.gwt.xml: '8'
+  org/abtollc/api/NOTICE: '8'
+  org/webrtc/videoengine/README: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.2.1-dirty
+versionInfo:
+  versionCode: '121'
+  versionName: 4.0.1

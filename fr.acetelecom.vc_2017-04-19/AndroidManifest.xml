@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:autoLink="phone" package="fr.acetelecom.vc" platformBuildVersionCode="25" platformBuildVersionName="7.1.1">
+    <permission android:name="fr.acetelecom.vc.permission.PERMISSION" android:protectionLevel="normal"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:maxSdkVersion="23" android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="com.android.vending.BILLING"/>
+    <uses-permission android:name="fr.acetelecom.vc.permission.PERMISSION"/>
+    <uses-permission android:name="fr.acetelecom.vc.permission.C2D_MESSAGE"/>
+    <permission android:name="fr.acetelecom.vc.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:resizeable="true" android:smallScreens="true"/>
+    <uses-feature android:name="android.hardware.telephony" android:required="false"/>
+    <uses-feature android:glEsVersion="0x00020000" android:required="true"/>
+    <application android:allowBackup="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:theme="@style/AppTheme">
+        <meta-data android:name="com.tapjoy.notification.icon" android:resource="@drawable/ic_insert_emoticon_black_24dp"/>
+        <meta-data android:name="com.tapjoy.notification.icon.large" android:resource="@drawable/ic_insert_emoticon_black_24dp"/>
+        <meta-data android:name="com.tapjoy.notification.icon.compat" android:resource="@drawable/ic_insert_emoticon_black_24dp"/>
+        <meta-data android:name="android.max_aspect" android:value="2.1"/>
+        <activity android:label="@string/app_name" android:name="fr.acetelecom.vc.SplashActivity" android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="fr.acetelecom.vc"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="allogag.com" android:pathPrefix="/voice-changer" android:scheme="http"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="app1.acetelecom.fr" android:scheme="https"/>
+                <data android:host="app2.acetelecom.fr" android:scheme="https"/>
+            </intent-filter> .
+</activity>
+        <receiver android:exported="true" android:name="com.google.android.gms.gcm.GcmReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                <category android:name="fr.acetelecom.vc"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="fr.acetelecom.vc.GCMPushReceiverService">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="fr.acetelecom.vc.GCMRegistrationIntentService">
+            <intent-filter>
+                <action android:name="com.google.android.gms.iid.InstanceID"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="fr.acetelecom.vc.GCMTokenRefreshListenerService">
+            <intent-filter>
+                <action android:name="com.google.android.gms.iid.InstanceID"/>
+            </intent-filter>
+        </service>
+        <activity android:alwaysRetainTaskState="true" android:configChanges="keyboardHidden|orientation" android:label="@string/app_name" android:launchMode="singleTask" android:name="fr.acetelecom.vc.MainActivity" android:screenOrientation="nosensor" android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="fr.acetelecom.vc2"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="fr.acetelecom.vc.WebViewActivity" android:parentActivityName="fr.acetelecom.vc.MainActivity" android:theme="@style/AppTheme.NoActionBar">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="fr.acetelecom.vc.MainActivity"/>
+        </activity>
+        <activity android:configChanges="orientation|screenSize" android:name="com.fyber.ads.ofw.OfferWallActivity"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <activity android:alwaysRetainTaskState="true" android:configChanges="keyboardHidden|orientation" android:label="" android:launchMode="singleTask" android:name="fr.acetelecom.vc.CallActivity" android:parentActivityName="fr.acetelecom.vc.MainActivity" android:screenOrientation="nosensor">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="fr.acetelecom.vc.MainActivity"/>
+        </activity>
+        <service android:exported="false" android:name="com.twilio.client.TwilioClientService" android:stopWithTask="true"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:hardwareAccelerated="true" android:name="com.tapjoy.TJAdUnitActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.tapjoy.mraid.view.ActionHandler"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.tapjoy.mraid.view.Browser"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:hardwareAccelerated="true" android:name="com.tapjoy.TJContentActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <receiver android:name="com.tapjoy.GCMReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION"/>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                <action android:name="com.google.android.gcm.intent.RETRY"/>
+                <category android:name="fr.acetelecom.vc"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.tapjoy.TapjoyReceiver"/>
+        <meta-data android:name="io.fabric.ApiKey" android:value="6b34d6cf88ba793ce6be568f8e023c340c29a1e6"/>
+        <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <provider android:authorities="fr.acetelecom.vc.firebaseinitprovider" android:exported="false" android:initOrder="100" android:name="com.google.firebase.provider.FirebaseInitProvider"/>
+        <receiver android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementReceiver"/>
+        <receiver android:enabled="true" android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" android:permission="android.permission.INSTALL_PACKAGES">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementService"/>
+        <receiver android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION"/>
+                <category android:name="fr.acetelecom.vc"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver"/>
+        <service android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdService">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+        <activity android:exported="true" android:name="com.google.android.gms.appinvite.PreviewActivity" android:theme="@style/Theme.AppInvite.Preview">
+            <intent-filter>
+                <action android:name="com.google.android.gms.appinvite.ACTION_PREVIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenSize" android:hardwareAccelerated="true" android:name="com.fyber.ads.videos.RewardedVideoActivity" android:theme="@android:style/Theme.Translucent"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.fyber.ads.interstitials.InterstitialActivity" android:theme="@android:style/Theme.Translucent"/>
+        <activity android:label="Integration Test Suite" android:name="com.fyber.utils.testsuite.TestSuiteActivity"/>
+        <service android:exported="false" android:name="com.fyber.cache.CacheVideoDownloadService"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="com.digits.sdk.android.PhoneNumberActivity" android:taskAffinity="com.digits.sdk.android" android:windowSoftInputMode="stateVisible"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="com.digits.sdk.android.ConfirmationCodeActivity" android:taskAffinity="com.digits.sdk.android" android:windowSoftInputMode="stateVisible"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="com.digits.sdk.android.LoginCodeActivity" android:taskAffinity="com.digits.sdk.android" android:windowSoftInputMode="stateVisible"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="com.digits.sdk.android.PinCodeActivity" android:taskAffinity="com.digits.sdk.android" android:windowSoftInputMode="stateVisible"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="com.digits.sdk.android.FailureActivity" android:taskAffinity="com.digits.sdk.android"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="com.digits.sdk.android.ContactsActivity"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="com.digits.sdk.android.EmailRequestActivity" android:taskAffinity="com.digits.sdk.android" android:windowSoftInputMode="stateVisible"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="com.digits.sdk.android.PhoneNumberActionBarActivity" android:taskAffinity="com.digits.sdk.android" android:windowSoftInputMode="stateVisible"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="com.digits.sdk.android.ConfirmationCodeActionBarActivity" android:taskAffinity="com.digits.sdk.android" android:windowSoftInputMode="stateVisible"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="com.digits.sdk.android.LoginCodeActionBarActivity" android:taskAffinity="com.digits.sdk.android" android:windowSoftInputMode="stateVisible"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="com.digits.sdk.android.FailureActionBarActivity" android:taskAffinity="com.digits.sdk.android"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="com.digits.sdk.android.ContactsActionBarActivity"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="com.digits.sdk.android.InviteActionBarActivity"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="com.digits.sdk.android.PinCodeActionBarActivity" android:taskAffinity="com.digits.sdk.android" android:windowSoftInputMode="stateVisible"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="com.digits.sdk.android.EmailRequestActionBarActivity" android:taskAffinity="com.digits.sdk.android" android:windowSoftInputMode="stateVisible"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="com.digits.sdk.android.InviteActivity" android:taskAffinity="com.digits.sdk.android" android:windowSoftInputMode="stateHidden"/>
+        <service android:enabled="true" android:exported="false" android:name="com.digits.sdk.android.ContactsUploadService"/>
+        <service android:enabled="true" android:exported="false" android:name="com.digits.sdk.android.AttributableInviteDownloadService"/>
+        <activity android:configChanges="orientation|screenSize" android:excludeFromRecents="true" android:exported="false" android:name="com.twitter.sdk.android.core.identity.OAuthActivity"/>
+        <activity android:configChanges="orientation|screenSize" android:excludeFromRecents="true" android:exported="false" android:icon="@drawable/tw__transparent" android:label="@string/kit_name" android:name="com.twitter.sdk.android.core.identity.ShareEmailActivity"/>
+    </application>
+</manifest>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="items_array">
+        <item></item>
+    </string-array>
+    <string-array name="items_arraypc">
+        <item>חם</item>
+        <item>פחד</item>
+        <item>טניס</item>
+        <item>מלחמה</item>
+        <item>נמל תעופה</item>
+        <item>יום הולדת</item>
+        <item>תינוק בוכה</item>
+        <item>חתלתולים</item>
+        <item>כביש</item>
+        <item>משרד</item>
+        <item>בר</item>
+        <item>קזינו</item>
+        <item>מועדון לילה</item>
+        <item>פקקי תנועה</item>
+        <item>חווה</item>
+        <item>יריד שעשועים</item>
+        <item>יער</item>
+        <item>תחנת רכבת</item>
+        <item>ים - אוקיינוס</item>
+        <item>רכבת תחתית</item>
+        <item>חג המולד</item>
+        <item>פארק עם ילדים</item>
+        <item>חוף ים (רגוע)</item>
+        <item>חוף ים עם ילדים</item>
+        <item>גשם - סערה</item>
+        <item>ברחוב</item>
+        <item>נחל</item>
+        <item>מדע בדיוני</item>
+        <item>מגרש ספורט</item>
+    </string-array>
+</resources>

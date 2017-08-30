@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center" android:id="@id/textView6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="@string/txtRegisterNumber" android:lines="3" android:fontFamily="sans-serif" />
+    <EditText android:textSize="30.0dip" android:textColorHint="#4b00c1cf" android:id="@id/editTextChangeNumber" android:background="#ffd6d6d6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="20.0dip" android:hint="@string/ton_numero" android:ems="10" android:inputType="phone">
+        <requestFocus />
+    </EditText>
+    <Button android:textColor="#ffffffff" android:id="@id/buttonChange" android:background="#ff008694" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="20.0dip" android:text="@string/ok" />
+    <Button android:id="@id/buttonCancel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="20.0dip" android:layout_marginBottom="10.0dip" android:text="@string/cancel" android:height="20.0dip" />
+</LinearLayout>

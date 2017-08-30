@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.weirdvoice.widgets.EditSipUri android:gravity="center_horizontal" android:id="@id/sip_uri" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/footer" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/footer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" style="@style/ButtonBar.AlertDialog">
+        <Button android:id="@id/cancel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/cancel" android:layout_weight="0.5" style="@style/ButtonBarButton" />
+        <Button android:id="@id/ok" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ok" android:layout_weight="0.5" style="@style/ButtonBarButton" />
+    </LinearLayout>
+</RelativeLayout>

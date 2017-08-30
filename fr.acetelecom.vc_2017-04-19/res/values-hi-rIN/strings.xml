@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="RegisterNumber">अपना नंबर पंजीकृत करें</string>
+    <string name="app_name">आवाज परिवर्तक</string>
+    <string name="buycredits">क्रेडिट खरीदें</string>
+    <string name="cancel">रद्द करें</string>
+    <string name="checkconnection">अपने इंटरनेट कनेक्शन की जांच करें या दूसरे इंटरनेट कनेक्शन से जुड़ने की कोशिश करें</string>
+    <string name="chooseBackNoise">एक पृष्ठभूमि शोर चुनें</string>
+    <string name="coinsnotif" formatted="false">बधाई! आपने अर्जित किए %.0f %s!</string>
+    <string name="contact_us">हमसे संपर्क करें</string>
+    <string name="coupon">कूपन</string>
+    <string name="credits">सेकेंड</string>
+    <string name="hide_my_phonenumber">मेरा फोन नंबर छुपाएं</string>
+    <string name="higher">उच्चतर</string>
+    <string name="invalidphonenumber">अमान्य फोन नंबर!</string>
+    <string name="invalidphonenumbertext">कॉल करने के लिए नंबर सही नहीं है या अनधिकृत है! कृपया दूसरे नंबर पर कोशिश करें।</string>
+    <string name="labelcreditsremaining">शेष क्रेडिट:</string>
+    <string name="like_appli">एप पसंद करें</string>
+    <string name="lower">निचला</string>
+    <string name="menu_mynumber">मेरा नंबर</string>
+    <string name="menu_terms">सहायता</string>
+    <string name="minutes">मिनट</string>
+    <string name="normal">सामान्य</string>
+    <string name="novoip">चेतावनी: कुछ कैरियर या नेटवर्क इंटरनेट के जरिए कॉल को ब्लॉक कर देते हैं। दूसरे नेटवर्क से जुड़ने की कोशिश करें।</string>
+    <string name="numero_a_pieger">कॉल करने के लिए नंबर</string>
+    <string name="obtaincredit">आपको आवाज परिवर्तक के साथ किसी को कॉल करने के लिए क्रेडिट प्राप्त करना होगा।</string>
+    <string name="offres">एक ऑफर पूरा करें</string>
+    <string name="ok">OK</string>
+    <string name="poorcnx">आपका इंटरनेट कनेक्शन कॉल करने के लिए बहुत धीमा है। एक अच्छे इंटरनेट नेटवर्क के साथ दोबारा कोशिश करें</string>
+    <string name="regle_ta_voix">अपनी आवाज का चयन करें</string>
+    <string name="share">साझा करें</string>
+    <string name="share_app">एप साझा करें और मुफ्त मिनट जीतने की कोशिश करें। प्रत्येक दिन जीतने के लिए 100 मिनट!!!</string>
+    <string name="share_txt">आवाज परिवर्तक एलोगैग डाउनलोड करें और मुफ्त शरारत भरे कॉल करें!</string>
+    <string name="sondage">एक सर्वेक्षण पूरा करें</string>
+    <string name="soundoff">चेतावनी: आवाज बंद है</string>
+    <string name="tab1">आवाज परिवर्तक</string>
+    <string name="tab2">क्रेडिट</string>
+    <string name="tab3">पृष्ठभूमि शोर</string>
+    <string name="ton_numero">आपका फोन नंबर</string>
+    <string name="wait">इंतजार करें...</string>
+    <string name="welcome1">"आवाज परिवर्तक एलोगैग में आपका स्वागत है!
+
+आवाज परिवर्तक के साथ की जाने वाली कॉल इंटरनेट से होती हैं और आपके कैरियर में नहीं दिखेंगी।
+
+कॉल करने से पहले सुनिश्चित करें कि आपका इंटरनेट कनेक्शन अच्छा हो!"</string>
+    <string name="winfreeminutes">मुफ्त मिनट जीतें</string>
+    <string name="yournumberisnotvalid">आपका नंबर मान्य नहीं है!</string>
+</resources>

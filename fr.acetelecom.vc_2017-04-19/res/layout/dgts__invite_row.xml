@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:digits="http://schemas.android.com/apk/res-auto">
+    <TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@id/dgts__invite_display_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_toLeftOf="@id/dgts__action" android:layout_below="@id/dgts__invite_section_header" android:layout_alignParentLeft="true" style="@style/dgts__DisplayName" />
+    <TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@id/dgts__invite_phone_number" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_toLeftOf="@id/dgts__action" android:layout_below="@id/dgts__invite_display_name" android:layout_alignParentLeft="true" style="@style/dgts__DisplayPhoneNumber" />
+    <com.digits.sdk.android.internal.StateButton android:gravity="center_vertical" android:id="@id/dgts__action" android:layout_width="wrap_content" android:layout_height="@dimen/tw__login_btn_height" android:layout_below="@id/dgts__invite_section_header" android:layout_alignParentRight="true" style="@style/dgts__InviteButton" />
+</RelativeLayout>

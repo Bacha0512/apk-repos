@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/custom_shape_rect_oval_ripple" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_offers_image" android:background="@null" android:padding="5.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" android:scaleType="fitXY" />
+    <View android:background="@color/color_line" android:layout_width="1.0dip" android:layout_height="30.0dip" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="18.0sp" android:gravity="start|center" android:id="@id/tv_offers_type" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="offerwall" android:layout_weight="1.0" style="@style/StyleTextOnLight" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/color_hint_on_light" android:gravity="start|center" android:id="@id/tv_offers_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="tapjoy" android:layout_weight="1.0" style="@style/StyleTextOnLight" />
+    </LinearLayout>
+    <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/color_call_main" android:gravity="center_vertical" android:id="@id/tv_offers_reward" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="40 sec" style="@style/StyleTextOnLight" />
+</LinearLayout>

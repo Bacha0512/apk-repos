@@ -1,0 +1,31 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: fr.acetelecom.vc_2017-04-19.apk
+compressionType: false
+doNotCompress:
+- arsc
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '16'
+  targetSdkVersion: '25'
+sharedLibrary: false
+unknownFiles:
+  build-data.properties: '8'
+  com/tapjoy/res/countdown_image.png: '8'
+  com/tapjoy/res/tj_close_button.png: '8'
+  fabric/com.digits.sdk.android.digits.properties: '8'
+  fabric/com.twitter.sdk.android.twitter-core.properties: '8'
+  fabric/io.fabric.sdk.android.fabric.properties: '8'
+  js/closebutton.html: '8'
+  js/mraid.js: '8'
+  jsr305_annotations/Jsr305_annotations.gwt.xml: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.2.1-dirty
+versionInfo:
+  versionCode: '83'
+  versionName: 2.4.9

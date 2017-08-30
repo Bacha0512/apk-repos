@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/color_app_main" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rl_top" android:background="@color/color_app_main" android:layout_width="fill_parent" android:layout_height="60.0dip" android:elevation="6.0dip">
+        <TextView android:textSize="28.0sp" android:gravity="center" android:id="@id/tv_call_timer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/main_support" android:layout_centerVertical="true" style="@style/StyleTextOnDark" />
+    </RelativeLayout>
+    <RelativeLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="15.0sp" android:id="@id/tv_like" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/like_support_email_explain" style="@style/StyleTextOnLight" />
+        <EditText android:id="@id/et_issue" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/like_enter_issue" android:ems="10" android:layout_above="@id/bt_ok" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" style="@style/StyleTextOnLight" />
+        <Button android:textSize="20.0sp" android:layout_gravity="center" android:id="@id/bt_ok" android:background="@drawable/custom_shape_rect_corners_main_color" android:layout_width="100.0dip" android:layout_height="40.0dip" android:layout_margin="10.0dip" android:text="@string/sms_send" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:onClick="onEmail" style="@style/StyleTextOnDark" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/et_issue" android:layout_below="@id/tv_like" android:layout_centerHorizontal="true">
+            <TextView android:id="@id/tv_email_userid" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textIsSelectable="true" style="@style/StyleTextOnLight" />
+            <TextView android:id="@id/tv_email_version" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/StyleTextOnLight" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

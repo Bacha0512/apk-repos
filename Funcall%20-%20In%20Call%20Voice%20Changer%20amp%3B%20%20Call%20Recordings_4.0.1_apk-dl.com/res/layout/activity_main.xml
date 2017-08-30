@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/ll_main" android:background="@color/color_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/rl_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="10.0dip">
+        <TextView android:textSize="15.0sp" android:gravity="center" android:id="@id/tv_time_left" android:background="@drawable/ic_time_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:onClick="onShowBilling" style="@style/StyleTextOnLight" />
+        <TextView android:textSize="15.0sp" android:gravity="center" android:id="@id/tv_records_left" android:background="@drawable/ic_records_status" android:paddingLeft="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:onClick="onShowBilling" style="@style/StyleTextOnLight" />
+    </RelativeLayout>
+    <android.support.v4.widget.SwipeRefreshLayout android:id="@id/swipe_refresh" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/pageIndicatorView" android:layout_below="@id/rl_top">
+        <android.support.v4.view.ViewPager android:layout_gravity="center" android:id="@id/vp_suggestions_holder" android:paddingLeft="30.0dip" android:paddingTop="10.0dip" android:paddingRight="30.0dip" android:paddingBottom="14.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/rl_top" android:layout_alignParentLeft="true" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+    <com.rd.PageIndicatorView android:id="@id/pageIndicatorView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="80.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:piv_count="0" app:piv_unselectedColor="@color/color_list_row_background" app:piv_selectedColor="@color/color_app_main" />
+    <View android:id="@id/v_background_trans" android:background="@color/color_black_trans" android:visibility="visible" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="onKeyboardDown" />
+    <RelativeLayout android:background="@drawable/ic_space_background" android:layout_width="fill_parent" android:layout_height="70.0dip" android:layout_alignParentBottom="true">
+        <LinearLayout android:id="@id/ll_bottom_holder" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentBottom="true">
+            <Button android:textColor="@color/color_text_on_dark" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/bt_test_call" android:background="@null" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/main_test_call" android:layout_weight="1.0" android:onClick="onTestCall" style="@style/StyleTextOnDark" />
+            <View android:layout_width="40.0dip" android:layout_height="wrap_content" />
+            <Button android:textColor="@color/color_text_on_dark" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/bt_recordings" android:background="@null" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/settings" android:layout_weight="1.0" android:onClick="onSettings" style="@style/StyleTextOnDark" />
+        </LinearLayout>
+        <android.support.design.widget.FloatingActionButton android:gravity="center" android:id="@id/bt_keyboard" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_icon_keypad" android:layout_centerInParent="true" android:onClick="onKeyboard" app:elevation="10.0dip" app:fabSize="normal" app:borderWidth="0.0dip" app:backgroundTint="@color/color_call_main" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_main_call_holder" android:background="@drawable/gradient_white_alpha" android:paddingLeft="10.0dip" android:paddingTop="10.0dip" android:paddingRight="10.0dip" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_voices_images" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageButton android:id="@id/rb_lowest" android:src="@drawable/selected_lowest" android:onClick="onDTMF" style="@style/MainButtons" />
+            <ImageButton android:id="@id/rb_low" android:src="@drawable/selected_low" android:text="@string/main_low_voice" android:onClick="onDTMF" style="@style/MainButtons" />
+            <ImageButton android:id="@id/rb_normal" android:src="@drawable/selected_regular" android:text="@string/main_normal_voice" android:onClick="onDTMF" style="@style/MainButtons" />
+            <ImageButton android:id="@id/rb_high" android:src="@drawable/selected_high" android:text="@string/main_high_voice" android:onClick="onDTMF" style="@style/MainButtons" />
+            <ImageButton android:id="@id/rb_highest" android:src="@drawable/selected_highest" android:text="@string/main_highest_voice" android:onClick="onDTMF" style="@style/MainButtons" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:enabled="false" android:id="@id/tv_lowest" android:layout_height="wrap_content" android:text="@string/main_lowest_voice" style="@style/MainButtons" />
+            <TextView android:enabled="false" android:id="@id/tv_low" android:layout_height="wrap_content" android:text="@string/main_low_voice" style="@style/MainButtons" />
+            <TextView android:enabled="false" android:id="@id/tv_regular" android:layout_height="wrap_content" android:text="@string/main_normal_voice" style="@style/MainButtons" />
+            <TextView android:enabled="false" android:id="@id/tv_high" android:layout_height="wrap_content" android:text="@string/main_high_voice" style="@style/MainButtons" />
+            <TextView android:enabled="false" android:id="@id/tv_highest" android:layout_height="wrap_content" android:text="@string/main_highest_voice" style="@style/MainButtons" />
+        </LinearLayout>
+        <RelativeLayout android:gravity="center_vertical" android:id="@id/rl_call" android:background="@drawable/custom_shape_rect_white_solid" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="10.0dip">
+            <RelativeLayout android:id="@id/rl_country_holder" android:layout_width="120.0dip" android:layout_height="fill_parent" android:layout_alignParentLeft="true">
+                <Spinner android:id="@id/sp_country" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignLeft="@id/iv_country" android:layout_alignRight="@id/tv_prefix" />
+                <ImageView android:id="@id/iv_country" android:layout_width="50.0dip" android:layout_height="fill_parent" android:scaleType="fitXY" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:onClick="onCountrySpinnerImage" />
+                <TextView android:textSize="25.0sp" android:textStyle="normal" android:gravity="center" android:id="@id/tv_prefix" android:paddingLeft="2.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="+972" android:layout_toRightOf="@id/iv_country" android:layout_alignParentRight="true" android:onClick="onCountrySpinnerImage" style="@style/StyleTextOnLight" />
+            </RelativeLayout>
+            <EditText android:textSize="24.0sp" android:textStyle="normal" android:gravity="center|left" android:id="@id/et_call_num" android:background="@android:color/transparent" android:paddingLeft="2.0dip" android:paddingRight="2.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/main_enter_number" android:singleLine="true" android:layout_toLeftOf="@id/imageView2" android:layout_toRightOf="@id/rl_country_holder" android:layout_alignParentTop="true" style="@style/StyleTextOnLight" />
+            <ImageView android:id="@id/imageView2" android:background="@drawable/custom_shape_rect_contacts" android:padding="3.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/ic_contacts" android:layout_alignParentRight="true" android:onClick="onContacts" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_keyboard_holder" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:id="@id/bt_key_1" android:text="1" style="@style/StyleKeyboard" />
+                <Button android:id="@id/bt_key_2" android:text="2" style="@style/StyleKeyboard" />
+                <Button android:id="@id/bt_key_3" android:text="3" style="@style/StyleKeyboard" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:id="@id/bt_key_4" android:text="4" style="@style/StyleKeyboard" />
+                <Button android:id="@id/bt_key_5" android:text="5" style="@style/StyleKeyboard" />
+                <Button android:id="@id/bt_key_6" android:text="6" style="@style/StyleKeyboard" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:id="@id/bt_key_7" android:text="7" style="@style/StyleKeyboard" />
+                <Button android:id="@id/bt_key_8" android:text="8" style="@style/StyleKeyboard" />
+                <Button android:id="@id/bt_key_9" android:text="9" style="@style/StyleKeyboard" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:textColor="@color/color_hint_on_light" android:id="@id/bt_key_plus" android:text="+" style="@style/StyleKeyboard" />
+                <Button android:id="@id/bt_key_0" android:text="0" style="@style/StyleKeyboard" />
+                <Button android:textSize="14.0sp" android:textColor="@color/color_hint_on_light" android:id="@id/bt_key_del" android:text="DEL" style="@style/StyleKeyboard" />
+            </LinearLayout>
+            <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="80.0dip">
+                <ImageButton android:layout_gravity="bottom|center" android:id="@id/ib_keyboard_down" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="30.0dip" android:src="@drawable/ic_down_arrow" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:onClick="onKeyboardDown" style="@style/StyleKeyboard" />
+                <android.support.design.widget.FloatingActionButton android:gravity="center" android:id="@id/bt_call" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_icon_call" android:layout_centerInParent="true" android:onClick="onCall" app:elevation="7.0dip" app:fabSize="normal" app:borderWidth="0.0dip" app:backgroundTint="@color/color_call_main" />
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="30.0dip" android:layout_alignTop="@id/bt_call" android:layout_alignBottom="@id/bt_call" android:layout_alignParentRight="true">
+                    <android.support.v7.widget.SwitchCompat android:id="@id/sw_record" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" app:theme="@style/MySwitchRecords" />
+                    <TextView android:textSize="14.0sp" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/record_call" style="@style/StyleTextOnLight" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

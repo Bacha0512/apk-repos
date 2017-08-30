@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="RegisterNumber">Registreer uw nummer</string>
+    <string name="app_name">Voice Changer</string>
+    <string name="buycredits">Koop credits</string>
+    <string name="cancel">Annuleer</string>
+    <string name="checkconnection">Controleer uw internetverbinding of probeer om verbinding te maken met een ander internet-netwerk</string>
+    <string name="chooseBackNoise">Kies een achtergrondgeluid</string>
+    <string name="coinsnotif" formatted="false">"Gefeliciteerd! U heeft %.0f %s verdiend!
+(60 credits = 1 minuut)"</string>
+    <string name="contact_us">Contacteer ons</string>
+    <string name="coupon">Coupon</string>
+    <string name="credits">seconden</string>
+    <string name="hide_my_phonenumber">Verberg mijn telefoonnummer</string>
+    <string name="higher">Hogere</string>
+    <string name="invalidphonenumber">Ongeldig telefoonnummer !</string>
+    <string name="invalidphonenumbertext">Het te bellen nummer is niet juist of niet geverifieerd! Probeer een ander nummer.</string>
+    <string name="labelcreditsremaining">Resterende credits:</string>
+    <string name="like_appli">Volg ons</string>
+    <string name="lower">Diepere</string>
+    <string name="menu_mynumber">Mijn nummer</string>
+    <string name="menu_terms">Help</string>
+    <string name="minutes">minuten</string>
+    <string name="normal">Normaal</string>
+    <string name="novoip"> Waarschuwing: sommige aanbieders of netwerken blokkeren bellen via internet. Probeer aan te sluiten op een ander netwerk.</string>
+    <string name="numero_a_pieger">Nummer te bellen</string>
+    <string name="obtaincredit">U moet credits krijgen om iemand met de Stem Veranderaar te bellen</string>
+    <string name="offres">Voltooi een offerte</string>
+    <string name="ok">OK</string>
+    <string name="poorcnx">Uw internetverbinding is te traag om oproepen te initiëren. Probeer het opnieuw met een beter internetnetwerk</string>
+    <string name="regle_ta_voix">Selecteer uw stem</string>
+    <string name="share">Deel</string>
+    <string name="share_app">Deel de app en probeer gratis minuten te winnen. Er zijn 100 minuten per dag te winnen !!!</string>
+    <string name="share_txt">Download Stem Veranderaar Allogag en maak gratis neptelefoontjes!</string>
+    <string name="sondage">Voltooi een enquête</string>
+    <string name="soundoff">Waarschuwing: het volume is gedempt</string>
+    <string name="tab1">Stem Veranderaar</string>
+    <string name="tab2">Credits</string>
+    <string name="tab3">Achtergrondgeluiden</string>
+    <string name="ton_numero">Uw telefoonnummer</string>
+    <string name="wait">Even wachten...</string>
+    <string name="welcome1">"Welkom bij Stem Veranderaar Allogag!
+
+De oproepen die u initieert met Stem Veranderaar worden via internet gemaakt en zullen niet weergegeven worden op de factuur van uw aanbieder.
+
+Zorg ervoor dat u een goede internetverbinding heeft voordat u een oproep initieert!"</string>
+    <string name="winfreeminutes">Win Gratis Minuten</string>
+    <string name="yournumberisnotvalid">Uw nummer is niet geldig!</string>
+    <string name="authsuccess">Authenticatie succesvol voor:</string>
+    <string name="bruitages">Effecten</string>
+    <string name="button_obtaincredit">Krijg meer credits</string>
+    <string name="buy">Koop</string>
+    <string name="buyHelp">Aankoop verwijdert video-advertenties</string>
+    <string name="buyWhy">Waarom heb ik credits nodig?</string>
+    <string name="chooseBrNoise">Kies een effect</string>
+    <string name="conflittxt">U op dit moment gebruik van de app op een ander apparaat. Gelieve de app te sluiten op het andere apparaat.</string>
+    <string name="facebook_application_id">162163577280034</string>
+    <string name="free">Gratis!</string>
+    <string name="infobuy">Het is technisch niet mogelijk om uw stem te veranderen met behulp van uw gewone telefoon abonnement.. Alle gesprekken lopen via onze servers en wij betalen daarvoor. Dat is de reden waarom we geen onbeperkte gratis minuten kunnen aanbieden.</string>
+    <string name="inforec">De oproepen u opneemt zullen worden omgezet in een YouTube video om hosten mogelijk te maken. Deze video zal privaat zijn. Alleen u en de mensen waarmee u de link deelt zullen in staat zijn om deze te zien. Oproepen die minder dan 10 seconden duren kunnen niet worden opgenomen.</string>
+    <string name="login">Log in</string>
+    <string name="logout">Log uit</string>
+    <string name="menu_myjokes">Mijn Fopgesprekken</string>
+    <string name="perm">Accepteer toestemming om deze app te gebruiken</string>
+    <string name="permaudio">De app kan niet werken zonder de (microfoon) toestemming!</string>
+    <string name="permcontacts">De app kan niet werken zonder de (contacten) toestemming!</string>
+    <string name="permphone">De (telefoon) toestemming is nodig om oproepen te maken!</string>
+    <string name="permsms">De app kan zonder de (SMS) toestemming niet werken</string>
+    <string name="permstorage">De (opslag) toestemming is nodig om geluidsbestanden die u opneemt met de app op te slaan.</string>
+    <string name="prank">Fopgesprek</string>
+    <string name="record">Neem een gesprek op</string>
+    <string name="register">Om uw credits en speciale aanbiedingen op te slaan, registreer met uw mobiele telefoon en e-mail</string>
+    <string name="registertitle">Registreer</string>
+    <string name="sharerec">Maak een hilarisch fopgesprek: download Voice Changer Allogag</string>
+    <string name="sharetest">Verander ook uw stem: download Voice Changer Allogag</string>
+    <string name="talk">Tik en preek</string>
+    <string name="txtRegisterNumber">In overeenstemming met het beleid van Google Play, kunt u als nummerherkenning geen telefoonnummer tonen dat niet het uwe is.</string>
+    <string name="win">Win</string>
+</resources>

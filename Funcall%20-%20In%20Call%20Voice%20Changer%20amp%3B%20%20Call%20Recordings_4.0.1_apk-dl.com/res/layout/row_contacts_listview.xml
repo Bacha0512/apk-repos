@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/custom_shape_rect_oval_ripple" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.rami_bar.fun_call.utiles.CircularImageView android:layout_gravity="center_vertical" android:id="@id/iv_contact_icon" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/ic_user_round" app:border="true" app:border_width="1.0dip" app:shadow="true" />
+    <View android:layout_gravity="center_vertical" android:id="@id/line" android:background="@color/color_line" android:layout_width="1.0dip" android:layout_height="30.0dip" android:layout_marginLeft="7.0dip" android:layout_marginRight="7.0dip" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="18.0sp" android:gravity="start" android:id="@id/tv_contact_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-4.0dip" android:maxLines="1" style="@style/StyleTextOnLight" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/color_hint_on_light" android:gravity="start" android:id="@id/tv_contact_phone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" style="@style/StyleTextOnLight" />
+    </LinearLayout>
+    <CheckBox android:layout_gravity="center_vertical" android:id="@id/cb_selected" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" />
+</LinearLayout>

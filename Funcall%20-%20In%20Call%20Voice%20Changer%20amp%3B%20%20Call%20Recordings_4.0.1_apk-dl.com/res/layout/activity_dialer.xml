@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ff222222" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/rl_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <com.rami_bar.fun_call.utiles.CircularImageView android:id="@id/civ_call_image" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginTop="20.0dip" android:src="@drawable/ic_user_round" app:border="true" app:border_width="1.0px" app:shadow="true" />
+        <TextView android:textSize="30.0sp" android:gravity="center" android:id="@id/tv_call_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="100.0dip" style="@style/StyleTextOnDark" />
+        <TextView android:textSize="18.0sp" android:gravity="center" android:id="@id/tv_call_timer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="100.0dip" style="@style/StyleTextOnDark" />
+        <LinearLayout android:orientation="horizontal" android:paddingTop="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageButton android:id="@id/ib_speaker" android:padding="10.0dip" android:layout_marginRight="30.0dip" android:src="@drawable/ic_icon_speaker" android:onClick="onSpeaker" style="@style/MainButtons" />
+            <ImageButton android:id="@id/ib_keyboard" android:padding="10.0dip" android:src="@drawable/ic_icon_keypad" android:onClick="onKeyboard" style="@style/MainButtons" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:orientation="vertical" android:id="@id/rl_sounds_holder" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/hangup_button" android:layout_below="@id/rl_top">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_voices_images" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_alignParentTop="true">
+            <ImageButton android:id="@id/rb_lowest" android:src="@drawable/selected_lowest" android:onClick="onDTMF" style="@style/MainButtons" />
+            <ImageButton android:id="@id/rb_low" android:src="@drawable/selected_low" android:text="@string/main_low_voice" android:onClick="onDTMF" style="@style/MainButtons" />
+            <ImageButton android:id="@id/rb_normal" android:src="@drawable/selected_regular" android:text="@string/main_normal_voice" android:onClick="onDTMF" style="@style/MainButtons" />
+            <ImageButton android:id="@id/rb_high" android:src="@drawable/selected_high" android:text="@string/main_high_voice" android:onClick="onDTMF" style="@style/MainButtons" />
+            <ImageButton android:id="@id/rb_highest" android:src="@drawable/selected_highest" android:text="@string/main_highest_voice" android:onClick="onDTMF" style="@style/MainButtons" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_voices_names" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/ll_voices_images">
+            <TextView android:enabled="false" android:id="@id/tv_lowest" android:layout_height="wrap_content" android:text="@string/main_lowest_voice" style="@style/MainButtons" />
+            <TextView android:enabled="false" android:id="@id/tv_low" android:layout_height="wrap_content" android:text="@string/main_low_voice" style="@style/MainButtons" />
+            <TextView android:enabled="false" android:id="@id/tv_regular" android:layout_height="wrap_content" android:text="@string/main_normal_voice" style="@style/MainButtons" />
+            <TextView android:enabled="false" android:id="@id/tv_high" android:layout_height="wrap_content" android:text="@string/main_high_voice" style="@style/MainButtons" />
+            <TextView android:enabled="false" android:id="@id/tv_highest" android:layout_height="wrap_content" android:text="@string/main_highest_voice" style="@style/MainButtons" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ll_voices_names">
+            <TextView android:gravity="center" android:id="@id/tv_affects_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:text="@string/in_call_sound_effects" style="@style/StyleTextOnDark" />
+            <GridView android:gravity="center" android:id="@id/gv_in_call_sounds" android:layout_width="wrap_content" android:layout_height="120.0dip" android:horizontalSpacing="5.0dip" android:verticalSpacing="10.0dip" android:stretchMode="columnWidth" android:numColumns="5" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_keyboard_holder" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/hangup_button" android:layout_below="@id/rl_top">
+        <TextView android:textSize="30.0sp" android:gravity="center" android:id="@id/tv_keyboard_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" style="@style/StyleTextOnDark" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:id="@id/bt_key_1" android:text="1" style="@style/StyleKeyboardInCall" />
+            <Button android:id="@id/bt_key_2" android:text="2" style="@style/StyleKeyboardInCall" />
+            <Button android:id="@id/bt_key_3" android:text="3" style="@style/StyleKeyboardInCall" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:id="@id/bt_key_4" android:text="4" style="@style/StyleKeyboardInCall" />
+            <Button android:id="@id/bt_key_5" android:text="5" style="@style/StyleKeyboardInCall" />
+            <Button android:id="@id/bt_key_6" android:text="6" style="@style/StyleKeyboardInCall" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:id="@id/bt_key_7" android:text="7" style="@style/StyleKeyboardInCall" />
+            <Button android:id="@id/bt_key_8" android:text="8" style="@style/StyleKeyboardInCall" />
+            <Button android:id="@id/bt_key_9" android:text="9" style="@style/StyleKeyboardInCall" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:id="@id/bt_key_asterisk" android:text="∗" style="@style/StyleKeyboardInCall" />
+            <Button android:id="@id/bt_key_0" android:text="0" style="@style/StyleKeyboardInCall" />
+            <Button android:id="@id/bt_key_hash" android:text="\#" style="@style/StyleKeyboardInCall" />
+        </LinearLayout>
+    </LinearLayout>
+    <android.support.design.widget.FloatingActionButton android:gravity="center" android:id="@id/hangup_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:src="@drawable/ic_icon_call" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:onClick="hangupCall" android:rotation="135.0" app:borderWidth="0.0dip" app:backgroundTint="@color/color_record_main" />
+    <RelativeLayout android:id="@id/rl_proximity_cover" android:background="@color/color_black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/proximity_explain" style="@style/StyleTextOnDark" />
+        <Button android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="0.0dip" android:minHeight="0.0dip" android:text="@string/proximity_show" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:onClick="onProximityShow" style="@style/RecordingDialogButtons" />
+    </RelativeLayout>
+</RelativeLayout>

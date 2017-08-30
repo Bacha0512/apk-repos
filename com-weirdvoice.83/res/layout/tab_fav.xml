@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/lin_main" android:layout_width="wrap_content" android:layout_height="460.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="64.0dip" android:layout_margin="0.0dip">
+            <ImageView android:layout_gravity="center" android:id="@id/img_action" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_ab_favourites_holo_dark" android:contentDescription="@string/empty_description" />
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:layout_gravity="center" android:id="@id/tx_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/favorites_tab_name_text" />
+            <View android:background="#ff4c4c4c" android:layout_width="fill_parent" android:layout_height="0.00999999dip" />
+        </LinearLayout>
+    </RelativeLayout>
+    <ScrollView android:id="@id/scr" android:background="#ff112233" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="250.0dip" android:layout_above="@id/footer" android:layout_below="@id/header">
+        <TableLayout android:id="@id/tab_fav" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </ScrollView>
+    <RelativeLayout android:id="@id/footer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <View android:id="@id/div1" android:background="#ff4c4c4c" android:layout_width="fill_parent" android:layout_height="0.00999999dip" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/div2" android:background="#ff112233" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/div1">
+            <ImageView android:layout_gravity="center" android:id="@id/img_addctcbook" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:src="@drawable/bt_addd" />
+            <ImageView android:layout_gravity="center" android:id="@id/img_eddctc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:src="@drawable/bt_edit" />
+        </LinearLayout>
+        <View android:id="@id/div3" android:background="#ff4c4c4c" android:layout_width="fill_parent" android:layout_height="0.00999999dip" android:layout_below="@id/div2" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/div4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/div3" style="@style/ButtonBar.AlertDialog">
+            <Button android:id="@id/butcancel" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/cancel" style="@style/ButtonBarButton" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

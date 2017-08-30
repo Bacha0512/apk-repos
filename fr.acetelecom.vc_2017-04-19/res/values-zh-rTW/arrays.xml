@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="items_array">
+        <item></item>
+    </string-array>
+    <string-array name="items_arraypc">
+        <item>熱</item>
+        <item>恐懼</item>
+        <item>網球</item>
+        <item>戰爭</item>
+        <item>機場</item>
+        <item>生日</item>
+        <item>嬰兒啼哭</item>
+        <item>小貓</item>
+        <item>路</item>
+        <item>辦公室</item>
+        <item>酒吧</item>
+        <item>賭場</item>
+        <item>夜店</item>
+        <item>交通堵塞</item>
+        <item>農場</item>
+        <item>遊樂場</item>
+        <item>森林</item>
+        <item>火車站</item>
+        <item>大海-海洋</item>
+        <item>地鐵</item>
+        <item>聖誕</item>
+        <item>公園與兒童</item>
+        <item>海灘（平靜）</item>
+        <item>海灘與兒童</item>
+        <item>下雨-風暴</item>
+        <item>在街上</item>
+        <item>溪流</item>
+        <item>科幻-小說</item>
+        <item>運動場</item>
+    </string-array>
+</resources>

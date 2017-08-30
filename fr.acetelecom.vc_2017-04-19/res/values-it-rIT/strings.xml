@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="RegisterNumber">Registra il tuo numero</string>
+    <string name="app_name">Voice Changer</string>
+    <string name="buycredits">Acquista crediti</string>
+    <string name="cancel">Annulla</string>
+    <string name="checkconnection">"Controlla la tua connessione a Internet o prova a connettiti a un'altra rete Internet"</string>
+    <string name="chooseBackNoise">Scegli un rumore di fondo</string>
+    <string name="coinsnotif" formatted="false">"Complimenti! Hai guadagnato %.0f %s!
+(60 crediti = 1 minuto)"</string>
+    <string name="contact_us">Contattaci</string>
+    <string name="coupon">Buono</string>
+    <string name="credits">secondi</string>
+    <string name="hide_my_phonenumber">Nascondi il mio numero di telefono</string>
+    <string name="higher">Più alto</string>
+    <string name="invalidphonenumber">Numero di telefono non valido!</string>
+    <string name="invalidphonenumbertext">Il numero da chiamare non è corretto o non autorizzato! Prova con un altro numero.</string>
+    <string name="labelcreditsremaining">Crediti rimanenti:</string>
+    <string name="like_appli">Seguici</string>
+    <string name="lower">Più basso</string>
+    <string name="menu_mynumber">Il mio numero</string>
+    <string name="menu_terms">Aiuto</string>
+    <string name="minutes">minuti</string>
+    <string name="normal">Normale</string>
+    <string name="novoip">" Attenzione: alcuni vettori o alcune reti bloccano le chiamate su Internet. Prova a connetterti a un'altra rete."</string>
+    <string name="numero_a_pieger">Numero da chiamare</string>
+    <string name="obtaincredit">È necessario ottenere credito per chiamare qualcuno con Cambia Voce</string>
+    <string name="offres">"Completa un'offerta"</string>
+    <string name="ok">OK</string>
+    <string name="poorcnx">Il tuo collegamento a Internet è troppo lento per effettuare chiamate. Riprova con una rete Internet migliore</string>
+    <string name="regle_ta_voix">Seleziona la tua voce</string>
+    <string name="share">Condividi</string>
+    <string name="share_app">"Condividi l'applicazione e prova a vincere minuti gratis. 100 minuti da vincere ogni giorno!"</string>
+    <string name="share_txt">Scarica Cambia Voce Allogag ed effettua scherzi telefonici gratuiti</string>
+    <string name="sondage">Completa un sondaggio</string>
+    <string name="soundoff">Attenzione: il volume è disattivato</string>
+    <string name="tab1">Cambia Voce</string>
+    <string name="tab2">Crediti</string>
+    <string name="tab3">Rumori di fondo</string>
+    <string name="ton_numero">Il tuo numero di telefono</string>
+    <string name="wait">Attendere prego...</string>
+    <string name="welcome1">"Benvenuti su Cambia Voce Allogag!
+
+Le chiamate effettuate con Cambia Voce sono realizzate su Internet e non verranno visualizzate sulla bolletta del vettore.
+
+Accertati di disporre di una buona connessione Internet prima di effettuare una chiamata!"</string>
+    <string name="winfreeminutes">Vinci minuti gratuiti</string>
+    <string name="yournumberisnotvalid">Il tuo numero non è valido!</string>
+    <string name="authsuccess">Autenticazione completata per:</string>
+    <string name="bruitages">Effetti</string>
+    <string name="button_obtaincredit">Ricevi più credito</string>
+    <string name="buy">Acquista</string>
+    <string name="buyHelp">"L'acquisto rimuove gli annunci video"</string>
+    <string name="buyWhy">Perché ho bisogno di credito?</string>
+    <string name="chooseBrNoise">Scegli un effetto</string>
+    <string name="conflittxt">"Stai utilizzando l'applicazione su un altro dispositivo. Si prega di chiudere l'applicazione sul altro dispositivo"</string>
+    <string name="facebook_application_id">162163577280034</string>
+    <string name="free">Gratuito!</string>
+    <string name="infobuy">Non è tecnicamente possibile modificare la propria voce utilizzando il proprio piano telefonico normale. Tutte le chiamate passano attraverso i nostri server e per fornire questo servizio dobbiamo sostenere dei costi. Ecco perché non siamo in grado di offrire un numero illimitato di minuti gratis.</string>
+    <string name="inforec">Chiamate registrate sono memorizzate nel Menu > I miei scherzi</string>
+    <string name="login">Accedi</string>
+    <string name="logout">Disconnetti</string>
+    <string name="menu_myjokes">I miei scherzi</string>
+    <string name="perm">"Per utilizzare questa applicazione occorre accettare l'autorizzazione"</string>
+    <string name="permaudio">"L'applicazione non può funzionare senza autorizzazione (Microfono)!"</string>
+    <string name="permcontacts">"L'applicazione non può funzionare senza autorizzazione (Contatti)!"</string>
+    <string name="permphone">"L'autorizzazione (Telefono) è necessaria per effettuare chiamate!"</string>
+    <string name="permsms">"L'applicazione non può funzionare senza autorizzazione (SMS)!"</string>
+    <string name="permstorage">"L'autorizzazione (Memoria) è necessaria per memorizzare i file audio registrati con l'applicazione"</string>
+    <string name="prank">Scherzo</string>
+    <string name="record">Registra la chiamata</string>
+    <string name="register">Per salvare i tuoi crediti e ricevere offerte speciali, registrati con il tuo telefono cellulare e il tuo account di posta elettronica</string>
+    <string name="registertitle">Registrati</string>
+    <string name="sharerec">Fai uno scherzo telefonico esilarante: scarica Voice Changer Allogag</string>
+    <string name="sharetest">Trasforma anche la tua voce: scarica Voice Changer Allogag su</string>
+    <string name="talk">Tocca e parla</string>
+    <string name="txtRegisterNumber">"In conformità all'informativa di Google Play, non è possibile visualizzare come ID chiamante un numero di telefono di cui non si è intestatari."</string>
+    <string name="win">Vinci</string>
+</resources>

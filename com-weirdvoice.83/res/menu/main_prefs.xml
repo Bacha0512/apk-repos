@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_prefs_media" android:id="@id/audio_test" android:title="@string/test_audio" />
+    <item android:icon="@android:drawable/ic_menu_revert" android:id="@id/reset_settings" android:title="@string/restore_default" />
+</menu>

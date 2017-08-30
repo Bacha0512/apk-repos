@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="64.0dip" android:layout_margin="0.0dip">
+        <ImageView android:id="@id/flag" android:layout_width="50.0dip" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:src="@drawable/ic_flag_fr" />
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:textStyle="bold" android:layout_gravity="center" android:id="@id/cname" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View android:background="#ff4c4c4c" android:layout_width="fill_parent" android:layout_height="0.00999999dip" />
+    <LinearLayout android:orientation="horizontal" android:background="#ff112233" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Spinner android:id="@id/choose_cur" android:layout_width="300.0dip" android:layout_height="wrap_content" android:layout_margin="3.0dip" />
+    </LinearLayout>
+    <ScrollView android:background="#ff112233" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:background="@android:drawable/list_selector_background" android:padding="6.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight">
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:layout_gravity="center" android:id="@id/rates" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

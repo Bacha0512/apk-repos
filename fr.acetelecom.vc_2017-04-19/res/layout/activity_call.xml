@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent" style="@android:style/Holo.ButtonBar"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.AppBarLayout android:theme="@style/AppTheme.AppBarOverlay" android:gravity="top" android:id="@id/appbar2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar android:id="@id/toolbar2" android:background="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:popupTheme="@style/AppTheme.PopupOverlay" app:layout_scrollFlags="enterAlways|scroll" />
+        <android.support.design.widget.TabLayout android:id="@id/tabs2" android:background="@color/colorPrimaryDark" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/MyCustomTabLayout" />
+    </android.support.design.widget.AppBarLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="3.0" android:foregroundGravity="bottom" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <android.support.v4.view.ViewPager android:layout_gravity="top" android:id="@id/container2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="5.0" android:foregroundGravity="top" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+        <ImageButton android:layout_gravity="center_horizontal" android:id="@id/speakerButton" android:background="@drawable/round_button_gray" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_margin="5.0dip" android:src="@android:drawable/ic_lock_silent_mode_off" android:layout_weight="0.0" />
+        <ImageButton android:layout_gravity="center_horizontal" android:id="@id/main_button" android:background="@drawable/round_button_gray" android:layout_width="70.0dip" android:layout_height="70.0dip" android:layout_margin="5.0dip" android:src="@drawable/ic_phonelink_ring_white_24dp" android:layout_weight="0.0" />
+    </LinearLayout>
+    <EditText android:id="@id/log_text_box" android:background="#ff8f7676" android:focusable="false" android:focusableInTouchMode="false" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="200.0dip" android:ems="10" android:editable="false" android:inputType="textMultiLine" />
+</android.support.design.widget.CoordinatorLayout>

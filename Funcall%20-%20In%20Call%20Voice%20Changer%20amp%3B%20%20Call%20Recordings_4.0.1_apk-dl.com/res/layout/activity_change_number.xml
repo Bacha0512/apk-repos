@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:background="@color/color_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/rl_top" android:background="@color/color_app_main" android:layout_width="fill_parent" android:layout_height="200.0dip">
+            <TextView android:textSize="28.0sp" android:gravity="center" android:id="@id/tv_headline" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/change_number_title" android:layout_alignParentLeft="true" style="@style/StyleTextOnDark" />
+            <TextView android:textSize="18.0sp" android:gravity="center" android:id="@id/tv_change_number_explain" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/change_number_explain" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" style="@style/StyleTextOnDark" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_change_number" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true">
+            <android.support.v7.widget.CardView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="10.0dip" app:cardCornerRadius="3.0dip" app:cardElevation="5.0dip" app:cardPreventCornerOverlap="true" xmlns:app="http://schemas.android.com/apk/res-auto">
+                <RadioGroup android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <RadioButton android:id="@id/rb_default_number" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="@string/change_number_default_number" android:layout_weight="1.0" android:onClick="onChangeNumberDefault" style="@style/StyleTextOnLight" />
+                    <RadioButton android:id="@id/rb_my_number" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/change_number_my_number" android:layout_weight="1.0" android:onClick="onChangeNumberMy" style="@style/StyleTextOnLight" />
+                </RadioGroup>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView android:id="@id/rl_change_number_register_send" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="15.0dip" app:cardCornerRadius="3.0dip" app:cardElevation="5.0dip" app:cardPreventCornerOverlap="true" xmlns:app="http://schemas.android.com/apk/res-auto">
+                <RelativeLayout android:orientation="vertical" android:padding="10.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:id="@id/tv_change_number_register_explain" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:text="@string/register_cost_explain" android:layout_alignLeft="@id/ll_change_number_holder" android:layout_alignRight="@id/ll_change_number_holder" style="@style/StyleTextOnLight" />
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_change_number_holder" android:background="@drawable/custom_shape_rect_white_solid" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="5.0dip" android:layout_below="@id/tv_change_number_register_explain" style="@style/StyleTextOnLight">
+                        <RelativeLayout android:id="@id/rl_country_holder" android:layout_width="50.0dip" android:layout_height="wrap_content">
+                            <Spinner android:id="@id/sp_country" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                            <ImageView android:id="@id/iv_country" android:background="@drawable/custom_shape_rect_white_solid" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:onClick="onCountrySpinner" />
+                        </RelativeLayout>
+                        <EditText android:textSize="16.0sp" android:gravity="center_vertical" android:id="@id/et_change_number_register" android:background="@android:color/transparent" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:hint="@string/main_enter_number" android:layout_weight="1.0" android:inputType="phone" style="@style/StyleTextOnLight" />
+                        <ImageView android:id="@id/iv_register_send" android:background="@drawable/custom_shape_rect_contacts" android:padding="8.0dip" android:layout_width="50.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_icon_call" android:onClick="onSendRegister" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+            <RelativeLayout android:orientation="vertical" android:id="@id/rl_change_number_register_code_send" android:background="@drawable/custom_shape_rect_oval_ripple" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="5.0dip">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_code_holder" android:background="@drawable/custom_shape_rect_white_solid" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="50.0dip" style="@style/StyleTextOnLight">
+                    <EditText android:textSize="16.0sp" android:gravity="center_vertical" android:id="@id/et_change_number_code_register" android:background="@android:color/transparent" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:hint="@string/change_number_enter_code" android:layout_weight="1.0" android:inputType="phone" style="@style/StyleTextOnLight" />
+                    <ImageView android:id="@id/imageView" android:background="@drawable/custom_shape_rect_contacts" android:padding="8.0dip" android:layout_width="50.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_icon_send" android:onClick="onSendCode" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

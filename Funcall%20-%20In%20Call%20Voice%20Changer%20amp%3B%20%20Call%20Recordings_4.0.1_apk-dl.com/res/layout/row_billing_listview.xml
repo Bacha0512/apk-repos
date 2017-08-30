@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/custom_shape_rect_oval_ripple" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_billing_image" android:padding="5.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+    <View android:background="@color/color_line" android:layout_width="1.0dip" android:layout_height="30.0dip" />
+    <TextView android:textSize="16.0sp" android:gravity="start|center" android:id="@id/tv_billing_description" android:background="@android:color/transparent" android:padding="5.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/StyleTextOnLight" />
+    <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/color_call_main" android:gravity="center_vertical" android:id="@id/tv_billing_price" android:background="@android:color/transparent" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/StyleTextOnLight" />
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="RegisterNumber">Numaranızı kaydedin</string>
+    <string name="app_name">Trafo sesi</string>
+    <string name="buycredits">Kredi satın al</string>
+    <string name="cancel">İptal</string>
+    <string name="checkconnection">İnternet bağlantınızı kontrol edin veya başka bir internet ağına bağlanmayı deneyin</string>
+    <string name="chooseBackNoise">Bir arka plan gürültüsünü seçin</string>
+    <string name="coinsnotif" formatted="false">Tebrikler! %.0f %s kazandınız!</string>
+    <string name="contact_us">Bizimle iletişim kurun</string>
+    <string name="coupon">Kupon</string>
+    <string name="credits">saniye</string>
+    <string name="hide_my_phonenumber">Telefon numaramı gizle</string>
+    <string name="higher">Daha yüksek</string>
+    <string name="invalidphonenumber">Geçersiz telefon numarası!</string>
+    <string name="invalidphonenumbertext">Aranacak numara doğru değil ya da yetkili değil! Lütfen başka bir numara deneyin.</string>
+    <string name="labelcreditsremaining">Kalan Kredi:</string>
+    <string name="like_appli">Uygulamayı beğenin</string>
+    <string name="lower">Daha düşük</string>
+    <string name="menu_mynumber">Benim numaram</string>
+    <string name="menu_terms">Yardım</string>
+    <string name="minutes">dakika</string>
+    <string name="normal">Normal</string>
+    <string name="novoip"> Uyarı: Bazı taşıyıcılar veya ağlar İnternet üzerinden aramaları engelleyebilir. Başka bir ağa bağlanmayı deneyin.</string>
+    <string name="numero_a_pieger">Aranacak numara</string>
+    <string name="obtaincredit">Voice Changer ile arama yapmak için kredi almak zorundasınız</string>
+    <string name="offres">Teklif doldurun</string>
+    <string name="ok">OK</string>
+    <string name="poorcnx">İnternet bağlantınız arama yapmak için çok yavaş. Daha iyi bir internet ağı ile tekrar deneyin</string>
+    <string name="regle_ta_voix">Sesinizi seçin</string>
+    <string name="share">Paylaş</string>
+    <string name="share_app">Uygulamayı paylaşın ve ücretsiz dakika kazanmaya çalışın. Her gün 100 dakika kazanabilirsiniz!!!</string>
+    <string name="share_txt">Voice Changer Allogag uygulamasını indirin ve ücretsiz telefon şakaları yapın!</string>
+    <string name="sondage">Anket doldurun</string>
+    <string name="soundoff">Uyarı: ses kapalı</string>
+    <string name="tab1">Trafo sesi</string>
+    <string name="tab2">Kredi</string>
+    <string name="tab3">Arka plan gürültü</string>
+    <string name="ton_numero">Telefon numaranız</string>
+    <string name="wait">Bekleyin...</string>
+    <string name="welcome1">"Voice Changer Allogag'a hoş geldiniz!
+
+Voice Changer ile yaptığınız aramalar, İnternet üzerinden yapılır ve faturanızda görünmez.
+
+Bir arama yapmadan önce iyi bir İnternet bağlantısına sahip olduğunuzdan emin olun!"</string>
+    <string name="winfreeminutes">Bedava Dakika Kazanın</string>
+    <string name="yournumberisnotvalid">Numaranız geçerli değil!</string>
+</resources>

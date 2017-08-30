@@ -1,0 +1,211 @@
+{
+    "ambiances": [
+        {
+            "title": "Christmas",
+            "name": "noel",
+            "pos": 15
+        },
+        {
+            "title": "Kittens",
+            "name": "chatons",
+            "pos": 24
+        },
+	{
+            "title": "Dinosaur",
+            "name": "dino",
+            "pos": 26            
+        },
+        {
+            "title": "Tennis",
+            "name": "tennis",
+            "pos": 27                                               
+        },
+        {
+            "title": "War",
+            "name": "guerre",
+            "pos": 28
+        },
+        {
+            "title": "Coquin",
+            "name": "coquin",
+            "pos": 25
+        },
+        {
+            "title": "Airport",
+            "name": "aerop",
+            "pos": 0
+        },
+        {
+            "title": "Birthday",
+            "name": "anniv",
+            "pos": 1
+        },
+        {
+            "title": "Baby crying",
+            "name": "bbpleur",
+            "pos": 2
+        },
+        {
+            "title": "Road",
+            "name": "borrout",
+            "pos": 3
+        },
+        {
+            "title": "Office",
+            "name": "buro",
+            "pos": 4
+        },
+        {
+            "title": "Bar",
+            "name": "cafe",
+            "pos": 5
+        },
+        {
+            "title": "Casino",
+            "name": "casino",
+            "pos": 6
+        },
+        {
+            "title": "Nightclub",
+            "name": "disco",
+            "pos": 7
+        },
+        {
+            "title": "Traffic jams",
+            "name": "embout",
+            "pos": 8
+        },
+        {
+            "title": "Farm",
+            "name": "ferm",
+            "pos": 9
+        },
+        {
+            "title": "Fun fair",
+            "name": "fetfor",
+            "pos": 10
+        },
+        {
+            "title": "Forest",
+            "name": "foret",
+            "pos": 11
+        },
+        {
+            "title": "Rail station",
+            "name": "gar",
+            "pos": 12
+        },
+        {
+            "title": "Sea - Ocean",
+            "name": "merocea",
+            "pos": 13
+        },
+        {
+            "title": "Subway",
+            "name": "metrobond",
+            "pos": 14
+        },
+        {
+            "title": "Park with children",
+            "name": "parke",
+            "pos": 16
+        },
+        {
+            "title": "Beach (calm)",
+            "name": "plagc",
+            "pos": 17
+        },
+        {
+            "title": "Beach with children",
+            "name": "plage",
+            "pos": 18
+        },
+        {
+            "title": "Raining - Storm",
+            "name": "pluiorag",
+            "pos": 19
+        },
+        {
+            "title": "In the street",
+            "name": "rueville",
+            "pos": 20
+        },
+        {
+            "title": "Creek",
+            "name": "ruiss",
+            "pos": 21
+        },
+        {
+            "title": "Science-fiction",
+            "name": "sf",
+            "pos": 22
+        },
+        {
+            "title": "Sports ground",
+            "name": "stad",
+            "pos": 23
+        }
+    ],
+    "version": "10",
+    "new": [
+        {
+            "title": "Hot",
+            "name": "coquin",
+            "pos": 25,
+            "remote": true,
+            "imgUrl": "http:\/\/www.ambianz.fr\/misc\/ambianz\/logo\/coquinnew.png",
+            "mp3Url": "http:\/\/www.ambianz.fr\/misc\/ambianz\/mini\/coquin10Sec.mp3"
+        },
+        {
+            "title": "Fear",
+            "name": "peur",
+            "pos": 26,
+            "remote": true,
+            "imgUrl": "http:\/\/www.ambianz.fr\/misc\/ambianz\/logo\/peurnew.png",
+            "mp3Url": "http:\/\/www.ambianz.fr\/misc\/ambianz\/mini\/peur10Sec.mp3"
+        }
+    ],
+    "bruitages": [
+        {
+            "title": "Ane",
+            "name": "ane",
+            "pos": 0
+        },
+        {
+            "title": "Fantome",
+            "name": "fantome",
+            "pos": 1
+        },
+        {
+            "title": "Kung-fu",
+            "name": "kung_fu",
+            "pos": 2
+        },
+        {
+            "title": "Pet",
+            "name": "pet",
+            "pos": 3
+        },
+        {
+            "title": "police_siren",
+            "name": "police_siren",
+            "pos": 4
+        },
+        {
+            "title": "Rot",
+            "name": "rot",
+            "pos": 5
+        },
+        {
+            "title": "Sabrelaser",
+            "name": "sabrelaser",
+            "pos": 6
+        },
+        {
+            "title": "Smiley",
+            "name": "smiley",
+            "pos": 7
+        }
+    ]
+
+}

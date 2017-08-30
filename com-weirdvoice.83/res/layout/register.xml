@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/scr_main" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center" android:id="@id/ima_register_logo" android:layout_width="300.0dip" android:layout_height="300.0dip" android:layout_marginTop="10.0dip" />
+        <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:layout_gravity="bottom|center" android:id="@id/tex_register_help" android:padding="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/welcome_welcome" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textStyle="bold" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="4.0dip" android:text="@string/country" />
+            <ImageView android:id="@id/img_ctryflag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="2.0dip" android:src="@drawable/flag" />
+            <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center_vertical" android:id="@id/tx_ctryname" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="2.0dip" android:layout_weight="1.0" />
+            <ImageView android:id="@id/img_whatisctry" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="2.0dip" android:src="@drawable/icon_howto" />
+        </LinearLayout>
+        <Button android:textAppearance="?android:textAppearanceMedium" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center" android:id="@id/but_register_ok" android:background="@drawable/btn_black" android:layout_width="250.0dip" android:layout_height="wrap_content" android:layout_margin="20.0dip" android:text="@string/register_button" android:drawablePadding="5.0dip" />
+    </LinearLayout>
+</ScrollView>

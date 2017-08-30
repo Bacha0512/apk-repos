@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="items_array">
+        <item></item>
+    </string-array>
+    <string-array name="items_arraypc">
+        <item>Gorąco</item>
+        <item>Strach</item>
+        <item>Tenis</item>
+        <item>Wojna</item>
+        <item>Lotnisko</item>
+        <item>Urodziny</item>
+        <item>Płacz dziecka</item>
+        <item>Kocięta</item>
+        <item>Droga</item>
+        <item>Biuro</item>
+        <item>Bar</item>
+        <item>Kasyno</item>
+        <item>Klub nocny</item>
+        <item>Korki</item>
+        <item>Gospodarstwo</item>
+        <item>Wesołe miasteczko</item>
+        <item>Las</item>
+        <item>Stacja kolejowa</item>
+        <item>Morze - Ocean</item>
+        <item>Metro</item>
+        <item>Boże Narodzenie</item>
+        <item>Park z dziećmi</item>
+        <item>Plaża (spokój)</item>
+        <item>Plaża z dziećmi</item>
+        <item>Deszcz - Burza</item>
+        <item>Na ulicy</item>
+        <item>Zatoka</item>
+        <item>Science fiction</item>
+        <item>Boisko sportowe</item>
+    </string-array>
+</resources>
